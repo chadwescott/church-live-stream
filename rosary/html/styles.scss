@@ -1,0 +1,142 @@
+:root {
+    --clr-accent-400: #aa0000;
+    --clr-bg: #fffbe7;
+
+    --fs-300: 2.5rem;
+    --fs-400: 3.4rem;
+    --fs-500: 3.8rem;
+    --fs-600: 4rem;
+
+    --mystery-img-height: 750px;
+    --prayer-img-height: 380px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-size: var(--fs-400);
+    background: var(--clr-bg, #fffbe7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.left {
+    width: 100%;
+}
+
+.content {
+    height: calc(1080px - 3rem);
+    width: calc(960px -3rem);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+    border: solid 4px var(--clr-accent-400, #aa0000);
+
+    & .heading {
+        flex: 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        & h1 {
+            font-size: var(--fs-600);
+            line-height: 1.2;
+        }
+
+        & h2 {
+            font-size: var(--fs-500);
+            line-height: 1;
+            font-weight: 400;
+        }
+    }
+
+    & .body {
+        flex: 1 1 100%;
+        font-size: var(--fs-300);
+        display: flex;
+        flex-direction: colum;
+        align-items: center;
+        height: 100%;
+    }
+
+    & .image {
+        position: relative;
+        height: var(--mystery-img-height);
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            height: var(--mystery-img-height);
+            width: 100%;
+            background: var(--clr-accent-400, #aa0000);
+            z-index: -1;
+        }
+
+        & img {
+            height: var(--mystery-img-height);
+        }
+    }
+}
+
+.prayer {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    white-space: pre-line;
+    line-height: 1.4;
+
+    & > div:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    &__voice {
+        &:before {
+            display: inline-block;
+            white-space: pre;
+            content: 'V: ';
+        }
+    }
+
+    &__response {
+        font-weight: 700;
+
+        &:before {
+            display: inline-block;
+            white-space: pre;
+            position: relative;
+            content: 'R: ';
+        }
+    }
+
+    &__image {
+        position: absolute;
+        bottom: 3.6rem;
+        right: 3.8rem;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            height: var(--prayer-img-height);
+            width: 100%;
+            background: var(--clr-accent-400, #aa0000);
+            z-index: -1;
+        }
+
+        img {
+            height: var(--prayer-img-height);
+        }
+    }
+}
