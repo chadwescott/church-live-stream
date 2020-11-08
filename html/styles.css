@@ -1,11 +1,10 @@
 :root {
+  --clr-primary-400: #aa0000;
   --clr-accent-400: #aa0000;
   --clr-bg: #fffbe7;
   --fs-500: 2.6rem;
   --fs-600: 3.6rem;
   --fs-700: 3.8rem;
-  --mystery-img-height: 750px;
-  --prayer-img-height: 380px;
 }
 
 *,
@@ -19,7 +18,7 @@
 body {
   font-size: var(--fs-500);
   background: var(--clr-bg, #fffbe7);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .left {
@@ -64,6 +63,7 @@ body {
           align-items: center;
   margin-bottom: 2rem;
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .content .heading h1 {
@@ -126,7 +126,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   white-space: pre-line;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .prayer > div:not(:last-child) {
