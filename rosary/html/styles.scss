@@ -18,7 +18,7 @@
 
 body {
     font-size: var(--fs-500);
-    background: var(--clr-bg, #fffbe7);
+    // background: var(--clr-bg, #fffbe7);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -28,15 +28,22 @@ body {
 
 .content {
     position: relative;
-    height: calc(1080px - 1em);
-    width: calc(960px - 1em);
-    padding: 0.75em;
+    background: var(--clr-bg, #fffbe7);
+    height: 1080px;
+    width: 960px;
+    padding: 1.25em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0.5em;
-    border: solid 4px var(--clr-accent-400, #aa0000);
+
+    &:before {
+        position: absolute;
+        content: '';
+        height: calc(100% - 1em);
+        width: calc(100% - 1em);
+        border: solid 4px var(--clr-accent-400, #aa0000);
+    }
 
     & .heading {
         flex: 0 0 0;

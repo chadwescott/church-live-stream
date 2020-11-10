@@ -20,7 +20,6 @@
 
 body {
   font-size: var(--fs-500);
-  background: var(--clr-bg, #fffbe7);
   font-family: var(--ff-main);
 }
 
@@ -30,9 +29,10 @@ body {
 
 .content {
   position: relative;
-  height: calc(1080px - 3rem);
-  width: calc(960px - 3rem);
-  padding: 2rem;
+  background: var(--clr-bg, #fffbe7);
+  height: 1080px;
+  width: 960px;
+  padding: 1.25em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,17 +40,24 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 1.5rem;
+}
+
+.content:before {
+  position: absolute;
+  content: '';
+  height: calc(100% - 1em);
+  width: calc(100% - 1em);
   border: solid 4px var(--clr-primary-400, #aa0000);
 }
 
 .content .heading {
+  width: 100%;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 0px;
           flex: 0 0 0;
