@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Reading 1.1",
-    "current_scene": "Reading 1.1",
+    "current_program_scene": "Gloria 2",
+    "current_scene": "Gloria 2",
     "current_transition": "Luma Wipe",
     "groups": [
         {
@@ -166,7 +166,9 @@
             "flags": 0,
             "hotkeys": {
                 "libobs.hide_scene_item.Logitech C930e Video": [],
-                "libobs.show_scene_item.Logitech C930e Video": []
+                "libobs.hide_scene_item.St. Theodore's Watermark": [],
+                "libobs.show_scene_item.Logitech C930e Video": [],
+                "libobs.show_scene_item.St. Theodore's Watermark": []
             },
             "id": "group",
             "mixers": 0,
@@ -199,7 +201,7 @@
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -210,6 +212,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -754,7 +785,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -765,6 +796,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -999,7 +1059,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -1010,6 +1070,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1244,7 +1333,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -1255,6 +1344,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1979,7 +2097,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -1990,6 +2108,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2539,7 +2686,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -2550,6 +2697,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -2749,7 +2925,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -2760,6 +2936,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -3206,7 +3411,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -3217,6 +3422,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -3416,7 +3650,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -3427,6 +3661,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -3626,7 +3889,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -3637,6 +3900,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -3836,7 +4128,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -3847,6 +4139,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -4293,7 +4614,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -4304,6 +4625,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -4503,7 +4853,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -4514,6 +4864,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -4713,7 +5092,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -4724,6 +5103,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -4820,7 +5228,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 9,
+                "id_counter": 10,
                 "items": [
                     {
                         "align": 5,
@@ -4923,7 +5331,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -4934,6 +5342,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -4952,7 +5389,7 @@
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 8,
-                        "locked": true,
+                        "locked": false,
                         "name": "Video",
                         "pos": {
                             "x": 0.0,
@@ -5133,7 +5570,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -5144,6 +5581,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -5343,7 +5809,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -5354,6 +5820,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -5685,7 +6180,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -5696,6 +6191,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -6045,7 +6569,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -6056,6 +6580,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -6337,7 +6890,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -6348,6 +6901,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -7094,7 +7676,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -7105,6 +7687,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -7304,7 +7915,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -7315,6 +7926,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -7514,7 +8154,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -7525,6 +8165,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -7724,7 +8393,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -7735,6 +8404,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -7934,7 +8632,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -7945,6 +8643,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -8041,7 +8768,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 17,
+                "id_counter": 19,
                 "items": [
                     {
                         "align": 5,
@@ -8144,7 +8871,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -8155,6 +8882,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -8179,7 +8935,9 @@
                             "x": 0.0,
                             "y": 0.0
                         },
-                        "private_settings": {},
+                        "private_settings": {
+                            "collapsed": false
+                        },
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -8354,7 +9112,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -8365,6 +9123,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -8594,7 +9381,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -8605,6 +9392,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -8804,7 +9620,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -8815,6 +9631,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -9014,7 +9859,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -9025,6 +9870,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -9121,7 +9995,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 11,
+                "id_counter": 12,
                 "items": [
                     {
                         "align": 5,
@@ -9224,7 +10098,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -9235,6 +10109,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -9434,7 +10337,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -9445,6 +10348,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -9644,7 +10576,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -9655,6 +10587,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -9854,7 +10815,7 @@
                         "crop_top": 0,
                         "group_item_backup": true,
                         "id": 1,
-                        "locked": true,
+                        "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
                             "x": 0.0,
@@ -9865,6 +10826,35 @@
                         "scale": {
                             "x": 1.0,
                             "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 19,
+                        "locked": true,
+                        "name": "St. Theodore's Watermark",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1000.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.55666667222976685,
+                            "y": 0.55555558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -10036,6 +11026,31 @@
             },
             "sync": 0,
             "versioned_id": "browser_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "St. Theodore's Watermark",
+            "prev_ver": 436207618,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "C:/git/church-live-stream/images/sttheodores_header.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
             "volume": 1.0
         }
     ],
