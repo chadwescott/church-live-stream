@@ -110,26 +110,6 @@ body {
   height: 100%;
 }
 
-.content .image {
-  position: relative;
-  height: var(--mystery-img-height);
-}
-
-.content .image::before {
-  content: '';
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  height: var(--mystery-img-height);
-  width: 100%;
-  background: var(--clr-primary-400, #aa0000);
-  z-index: -1;
-}
-
-.content .image img {
-  height: var(--mystery-img-height);
-}
-
 .prayer {
   height: 100%;
   position: relative;
@@ -169,26 +149,5 @@ body {
   white-space: pre;
   position: relative;
   content: 'R: ';
-}
-
-.prayer__image {
-  position: absolute;
-  bottom: 1rem;
-  right: 1.6rem;
-}
-
-.prayer__image::before {
-  content: '';
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  height: var(--prayer-img-height);
-  width: 100%;
-  background: var(--clr-primary-400, #aa0000);
-  z-index: -1;
-}
-
-.prayer__image img {
-  height: var(--prayer-img-height);
 }
 /*# sourceMappingURL=styles.css.map */

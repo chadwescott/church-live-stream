@@ -80,26 +80,6 @@ body {
         align-items: center;
         height: 100%;
     }
-
-    & .image {
-        position: relative;
-        height: var(--mystery-img-height);
-
-        &::before {
-            content: '';
-            position: absolute;
-            top: 4px;
-            left: 4px;
-            height: var(--mystery-img-height);
-            width: 100%;
-            background: var(--clr-primary-400, #aa0000);
-            z-index: -1;
-        }
-
-        & img {
-            height: var(--mystery-img-height);
-        }
-    }
 }
 
 .prayer {
@@ -138,27 +118,6 @@ body {
             white-space: pre;
             position: relative;
             content: 'R: ';
-        }
-    }
-
-    &__image {
-        position: absolute;
-        bottom: 1rem;
-        right: 1.6rem;
-
-        &::before {
-            content: '';
-            position: absolute;
-            top: 4px;
-            left: 4px;
-            height: var(--prayer-img-height);
-            width: 100%;
-            background: var(--clr-primary-400, #aa0000);
-            z-index: -1;
-        }
-
-        img {
-            height: var(--prayer-img-height);
         }
     }
 }
