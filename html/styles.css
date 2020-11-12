@@ -2,12 +2,11 @@
   --clr-primary-400: #aa0000;
   --clr-accent-400: #55aa7f;
   --clr-bg: #fffbe7;
-  --fs-400: 2.4rem;
-  --fs-500: 2.6rem;
+  --fs-500: 2.4rem;
   --fs-600: 3.6rem;
-  --fs-700: 3.8rem;
   --ff-main: Arial, Helvetica, sans-serif;
   --ff-title: Georgia, 'Times New Roman', Times, serif;
+  --padding-bg: 1.25em;
 }
 
 *,
@@ -21,6 +20,102 @@
 body {
   font-size: var(--fs-500);
   font-family: var(--ff-main);
+}
+
+.content--full-screen::before, .content::before {
+  position: absolute;
+  content: '';
+  height: calc(100% - 1em);
+  width: calc(100% - 1em);
+  border: solid 4px var(--clr-primary-400, #aa0000);
+}
+
+.left {
+  width: 100%;
+}
+
+p:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.content--full-screen {
+  position: relative;
+  background: var(--clr-bg, #fffbe7);
+  height: 1080px;
+  width: 1920px;
+  overflow: hidden;
+  padding: var(--padding-bg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.heading {
+  width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 0px;
+          flex: 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0.75em;
+  text-align: center;
+}
+
+.heading :not(:last-child) {
+  margin-bottom: 0.25em;
+}
+
+.heading h1 {
+  font-size: var(--fs-600);
+  line-height: 1.2;
+  font-family: var(--ff-title);
+  text-decoration: underline;
+}
+
+.heading h2 {
+  font-size: var(--fs-500);
+  line-height: 1;
+  font-weight: 400;
+}
+
+.verse {
+  color: var(--clr-accent-400);
+}
+
+.body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: colum;
+          flex-direction: colum;
+  height: 100%;
+  line-height: 1.4;
 }
 
 .left {
@@ -48,77 +143,11 @@ body {
           justify-content: center;
 }
 
-.content:before {
-  position: absolute;
-  content: '';
-  height: calc(100% - 1em);
-  width: calc(100% - 1em);
-  border: solid 4px var(--clr-primary-400, #aa0000);
-}
-
-.content .heading {
-  width: 100%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 0px;
-          flex: 0 0 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 0.75em;
-  text-align: center;
-}
-
-.content .heading :not(:last-child) {
-  margin-bottom: 0.25em;
-}
-
-.content .heading h1 {
-  font-size: var(--fs-600);
-  line-height: 1.2;
-  font-family: var(--ff-title);
-}
-
-.content .heading h2 {
-  font-size: var(--fs-600);
-  line-height: 1;
-  font-weight: 400;
-}
-
-.content .heading .verse {
-  color: var(--clr-accent-400);
-  font-size: var(--fs-400);
-}
-
-.content .body {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 100%;
-          flex: 1 1 100%;
-  font-size: var(--fs-400);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: colum;
-          flex-direction: colum;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
+ul[class] {
+  list-style: none;
 }
 
 .prayer {
-  height: 100%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,7 +157,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   white-space: pre-line;
-  line-height: 1.4;
 }
 
 .prayer > div:not(:last-child) {

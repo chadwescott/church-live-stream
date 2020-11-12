@@ -3,13 +3,13 @@
     --clr-accent-400: #55aa7f;
     --clr-bg: #fffbe7;
 
-    --fs-400: 2.4rem;
-    --fs-500: 2.6rem;
+    --fs-500: 2.4rem;
     --fs-600: 3.6rem;
-    --fs-700: 3.8rem;
 
     --ff-main: Arial, Helvetica, sans-serif;
     --ff-title: Georgia, 'Times New Roman', Times, serif;
+
+    --padding-bg: 1.25em;
 }
 
 *,
@@ -22,6 +22,79 @@
 body {
     font-size: var(--fs-500);
     font-family: var(--ff-main);
+}
+
+%bordered-background {
+    &::before {
+        position: absolute;
+        content: '';
+        height: calc(100% - 1em);
+        width: calc(100% - 1em);
+        border: solid 4px var(--clr-primary-400, #aa0000);
+    }
+}
+
+.left {
+    width: 100%;
+}
+
+p:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.content--full-screen {
+    position: relative;
+    background: var(--clr-bg, #fffbe7);
+    height: 1080px;
+    width: 1920px;
+    overflow: hidden;
+    padding: var(--padding-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @extend %bordered-background;
+}
+
+.heading {
+    width: 100%;
+    flex: 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 0.75em;
+    text-align: center;
+
+    & :not(:last-child) {
+        margin-bottom: 0.25em;
+    }
+
+    & h1 {
+        font-size: var(--fs-600);
+        line-height: 1.2;
+        font-family: var(--ff-title);
+        text-decoration: underline;
+    }
+
+    & h2 {
+        font-size: var(--fs-500);
+        line-height: 1;
+        font-weight: 400;
+    }
+}
+
+.verse {
+    color: var(--clr-accent-400);
+}
+
+.body {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: colum;
+    height: 100%;
+    line-height: 1.4;
 }
 
 .left {
@@ -39,63 +112,18 @@ body {
     align-items: center;
     justify-content: center;
 
-    &:before {
-        position: absolute;
-        content: '';
-        height: calc(100% - 1em);
-        width: calc(100% - 1em);
-        border: solid 4px var(--clr-primary-400, #aa0000);
-    }
+    @extend %bordered-background;
+}
 
-    & .heading {
-        width: 100%;
-        flex: 0 0 0;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        margin-bottom: 0.75em;
-        text-align: center;
-
-        & :not(:last-child) {
-            margin-bottom: 0.25em;
-        }
-
-        & h1 {
-            font-size: var(--fs-600);
-            line-height: 1.2;
-            font-family: var(--ff-title);
-        }
-
-        & h2 {
-            font-size: var(--fs-600);
-            line-height: 1;
-            font-weight: 400;
-        }
-
-        .verse {
-            color: var(--clr-accent-400);
-            font-size: var(--fs-400);
-        }
-    }
-
-    & .body {
-        flex: 1 1 100%;
-        font-size: var(--fs-400);
-        display: flex;
-        flex-direction: colum;
-        align-items: center;
-        height: 100%;
-    }
+ul[class] {
+    list-style: none;
 }
 
 .prayer {
-    height: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
     white-space: pre-line;
-    line-height: 1.4;
 
     & > div:not(:last-child) {
         margin-bottom: 0.75em;
