@@ -1,7 +1,11 @@
 :root {
+    --clr-normal-100: white;
+    --clr-normal-400: black;
     --clr-primary-400: #aa0000;
+    --clr-primary-500: #880000;
+    --clr-primary-600: #550000;
     --clr-accent-400: #55aa7f;
-    --clr-bg: #fffbe7;
+    --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
 
     --fs-500: 2.4rem;
     --fs-600: 3.6rem;
@@ -22,6 +26,8 @@
 body {
     font-size: var(--fs-500);
     font-family: var(--ff-main);
+    color: var(--clr-primary-600);
+    background: rgba(0, 0, 0, 0);
 }
 
 %bordered-background {
@@ -30,7 +36,7 @@ body {
         content: '';
         height: calc(100% - 1em);
         width: calc(100% - 1em);
-        border: solid 4px var(--clr-primary-400, #aa0000);
+        border: solid 4px var(--clr-primary-400);
     }
 }
 
@@ -44,7 +50,7 @@ p:not(:last-child) {
 
 .content--full-screen {
     position: relative;
-    background: var(--clr-bg, #fffbe7);
+    background: var(--clr-bg);
     height: 1080px;
     width: 1920px;
     overflow: hidden;
@@ -53,8 +59,83 @@ p:not(:last-child) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
 
+.bordered-background {
     @extend %bordered-background;
+}
+
+.church-bg {
+    position: relative;
+    background-image: url(../images/sttheodoremain-2.jpg);
+    background-size: cover;
+    font-size: 2rem;
+    color: var(--clr-primary-400);
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.6);
+    }
+
+    & > * {
+        z-index: 2;
+    }
+}
+
+.dark-filter {
+    position: relative;
+    font-size: 4rem;
+    background: unset;
+    color: var(--clr-normal-100);
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    & > * {
+        z-index: 2;
+    }
+
+    & p {
+        white-space: pre-line;
+    }
+}
+
+.title-page {
+    --fs-400: 4rem;
+    --fs-500: 5rem;
+    --fs-600: 6rem;
+
+    & > *:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+}
+
+h1 {
+    font-size: var(--fs-600);
+    line-height: 1.2;
+    font-family: var(--ff-title);
+    text-decoration: underline;
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    font-size: var(--fs-500);
+    line-height: 1;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: var(--fs-400);
+    line-height: 1;
+    font-weight: 400;
 }
 
 .heading {
@@ -69,19 +150,6 @@ p:not(:last-child) {
 
     & :not(:last-child) {
         margin-bottom: 0.25em;
-    }
-
-    & h1 {
-        font-size: var(--fs-600);
-        line-height: 1.2;
-        font-family: var(--ff-title);
-        text-decoration: underline;
-    }
-
-    & h2 {
-        font-size: var(--fs-500);
-        line-height: 1;
-        font-weight: 400;
     }
 }
 
@@ -103,7 +171,7 @@ p:not(:last-child) {
 
 .content {
     position: relative;
-    background: var(--clr-bg, #fffbe7);
+    background: var(--clr-bg);
     height: 1080px;
     width: 960px;
     padding: 1.25em;
@@ -125,7 +193,7 @@ ul[class] {
     flex-direction: column;
     white-space: pre-line;
 
-    & > div:not(:last-child) {
+    & > *:not(:last-child) {
         margin-bottom: 0.75em;
     }
 
