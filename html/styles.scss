@@ -7,8 +7,9 @@
     --clr-accent-400: #55aa7f;
     --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
 
-    --fs-500: 2.4rem;
-    --fs-600: 3.6rem;
+    --fs-400: 1rem;
+    --fs-500: 1.4rem;
+    --fs-600: 2.6rem;
 
     --ff-main: Arial, Helvetica, sans-serif;
     --ff-title: Georgia, 'Times New Roman', Times, serif;
@@ -28,6 +29,8 @@ body {
     font-family: var(--ff-main);
     color: var(--clr-primary-600);
     background: rgba(0, 0, 0, 0);
+    width: 100vw;
+    height: 100vh;
 }
 
 %bordered-background {
@@ -48,23 +51,11 @@ p:not(:last-child) {
     margin-bottom: 1em;
 }
 
-.content--full-screen {
-    position: relative;
-    background: var(--clr-bg);
-    height: 1080px;
-    width: 1920px;
-    overflow: hidden;
-    padding: var(--padding-bg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .bordered-background {
     @extend %bordered-background;
 }
 
+.content.church-bg,
 .church-bg {
     position: relative;
     background-image: url(../images/sttheodoremain-2.jpg);
@@ -109,9 +100,9 @@ p:not(:last-child) {
 }
 
 .title-page {
-    --fs-400: 4rem;
-    --fs-500: 5rem;
-    --fs-600: 6rem;
+    --fs-400: 1rem;
+    --fs-500: 2rem;
+    --fs-600: 3rem;
 
     & > *:not(:last-child) {
         margin-bottom: 1rem;
@@ -136,6 +127,34 @@ h3 {
     font-size: var(--fs-400);
     line-height: 1;
     font-weight: 400;
+}
+
+@media (min-width: 600px) {
+    :root {
+        --fs-400: 1.2rem;
+        --fs-500: 2.4rem;
+        --fs-600: 3.2rem;
+    }
+
+    .title-page {
+        --fs-400: 3rem;
+        --fs-500: 4rem;
+        --fs-600: 5rem;
+    }
+}
+
+@media (min-width: 900px) {
+    :root {
+        --fs-400: 2rem;
+        --fs-500: 2.4rem;
+        --fs-600: 3.6rem;
+    }
+
+    .title-page {
+        --fs-400: 4rem;
+        --fs-500: 5rem;
+        --fs-600: 6rem;
+    }
 }
 
 .heading {
@@ -172,15 +191,12 @@ h3 {
 .content {
     position: relative;
     background: var(--clr-bg);
-    height: 1080px;
-    width: 960px;
-    padding: 1.25em;
+    min-height: 100%;
+    padding: var(--padding-bg);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    @extend %bordered-background;
 }
 
 ul[class] {
