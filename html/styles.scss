@@ -60,8 +60,7 @@ p:not(:last-child) {
     position: relative;
     background-image: url(../images/sttheodoremain-2.jpg);
     background-size: cover;
-    font-size: 2rem;
-    color: var(--clr-primary-400);
+    color: var(--clr-primary-500);
 
     &::before {
         content: '';
@@ -76,11 +75,12 @@ p:not(:last-child) {
     }
 }
 
+.content.dark-filter,
 .dark-filter {
     position: relative;
     font-size: 4rem;
-    background: unset;
     color: var(--clr-normal-100);
+    background: unset;
 
     &::before {
         content: '';
@@ -96,6 +96,7 @@ p:not(:last-child) {
 
     & p {
         white-space: pre-line;
+        text-align: left;
     }
 }
 
@@ -103,9 +104,17 @@ p:not(:last-child) {
     --fs-400: 1rem;
     --fs-500: 2rem;
     --fs-600: 3rem;
+    text-align: center;
 
     & > *:not(:last-child) {
         margin-bottom: 1rem;
+    }
+
+    &__image {
+        background-image: url(../images/sttheodores_header.png);
+        background-size: cover;
+        height: 10rem;
+        width: 40rem;
     }
 }
 

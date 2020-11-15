@@ -52,8 +52,7 @@ p:not(:last-child) {
   position: relative;
   background-image: url(../images/sttheodoremain-2.jpg);
   background-size: cover;
-  font-size: 2rem;
-  color: var(--clr-primary-400);
+  color: var(--clr-primary-500);
 }
 
 .content.church-bg::before,
@@ -70,13 +69,15 @@ p:not(:last-child) {
   z-index: 2;
 }
 
+.content.dark-filter,
 .dark-filter {
   position: relative;
   font-size: 4rem;
-  background: unset;
   color: var(--clr-normal-100);
+  background: unset;
 }
 
+.content.dark-filter::before,
 .dark-filter::before {
   content: '';
   position: absolute;
@@ -85,22 +86,33 @@ p:not(:last-child) {
   background: rgba(0, 0, 0, 0.6);
 }
 
+.content.dark-filter > *,
 .dark-filter > * {
   z-index: 2;
 }
 
+.content.dark-filter p,
 .dark-filter p {
   white-space: pre-line;
+  text-align: left;
 }
 
 .title-page {
   --fs-400: 1rem;
   --fs-500: 2rem;
   --fs-600: 3rem;
+  text-align: center;
 }
 
 .title-page > *:not(:last-child) {
   margin-bottom: 1rem;
+}
+
+.title-page__image {
+  background-image: url(../images/sttheodores_header.png);
+  background-size: cover;
+  height: 10rem;
+  width: 40rem;
 }
 
 h1 {
