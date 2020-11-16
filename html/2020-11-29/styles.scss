@@ -119,10 +119,13 @@ p:not(:last-child) {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(255, 255, 255, 0.6);
-    border-radius: 1rem;
-    border: 0.25rem solid var(--clr-primary-500);
-    padding: 1rem 2rem;
+
+    &--bordered {
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 1rem;
+        border: 0.25rem solid var(--clr-primary-500);
+        padding: 4rem;
+    }
 
     & > *:not(:last-child) {
         margin-bottom: 1rem;
@@ -131,8 +134,8 @@ p:not(:last-child) {
     &__image {
         background-image: url(../images/sttheodores_header.png);
         background-size: cover;
-        height: 10rem;
-        width: 40rem;
+        height: 12rem;
+        width: 48rem;
         filter: hue-rotate(285deg);
     }
 

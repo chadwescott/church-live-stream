@@ -4,8 +4,10 @@
   --clr-primary-400: #aa0000;
   --clr-primary-500: #880000;
   --clr-primary-600: #550000;
-  --clr-accent-400: #55aa7f;
-  --clr-accent-500: #550000;
+  --clr-accent-400: rgb(233, 202, 25);
+  --clr-accent-400-text-shadow: #333;
+  --clr-accent-500: rgb(255, 215, 0);
+  --clr-accent-500-text-shadow: black;
   --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
   --fs-400: 1rem;
   --fs-500: 1.4rem;
@@ -102,7 +104,27 @@ p:not(:last-child) {
   --fs-400: 1rem;
   --fs-500: 2rem;
   --fs-600: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
+}
+
+.title-page--bordered {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 1rem;
+  border: 0.25rem solid var(--clr-primary-500);
+  padding: 4rem;
 }
 
 .title-page > *:not(:last-child) {
@@ -112,13 +134,14 @@ p:not(:last-child) {
 .title-page__image {
   background-image: url(../images/sttheodores_header.png);
   background-size: cover;
-  height: 10rem;
-  width: 40rem;
+  height: 12rem;
+  width: 48rem;
 }
 
 .title-page__title {
+  font-size: var(--fs-600);
   color: var(--clr-accent-500);
-  text-shadow: 2px 2px gray;
+  text-shadow: 2px 2px var(--clr-accent-500-text-shadow);
 }
 
 .title-page__date {
@@ -199,6 +222,7 @@ h3 {
 
 .verse {
   color: var(--clr-accent-400);
+  text-shadow: 1px 1px var(--clr-accent-400-text-shadow);
 }
 
 .body {
@@ -238,6 +262,24 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.video {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+}
+
+.video::before {
+  content: '';
+  position: absolute;
+  background-image: url(../images/sttheodores_header.png);
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  height: 5rem;
+  width: 20rem;
 }
 
 ul[class] {
