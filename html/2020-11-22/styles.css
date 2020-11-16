@@ -268,7 +268,6 @@ h3 {
   position: relative;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0);
 }
 
 .video::before {
@@ -280,6 +279,8 @@ h3 {
   left: 0;
   height: 5rem;
   width: 20rem;
+  -webkit-filter: saturate(200%) hue-rotate(225deg) invert(100%) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
+          filter: saturate(200%) hue-rotate(225deg) invert(100%) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
 }
 
 ul[class] {

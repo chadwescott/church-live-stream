@@ -137,6 +137,7 @@ p:not(:last-child) {
         background-size: cover;
         height: 12rem;
         width: 48rem;
+        // filter: saturate(300%) hue-rotate(240deg) invert(100%) drop-shadow(2px 2px var(--clr-accent-500-text-shadow));
     }
 
     &__title {
@@ -245,7 +246,6 @@ h3 {
     position: relative;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0);
 
     &::before {
         content: '';
@@ -256,6 +256,7 @@ h3 {
         left: 0;
         height: 5rem;
         width: 20rem;
+        filter: saturate(200%) hue-rotate(225deg) invert(100%) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
     }
 }
 

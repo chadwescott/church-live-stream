@@ -243,18 +243,17 @@ h3 {
     position: relative;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0);
 
     &::before {
         content: '';
         position: absolute;
         background-image: url(../images/sttheodores_header.png);
         background-size: cover;
-        filter: hue-rotate(285deg);
         bottom: 0;
         left: 0;
         height: 5rem;
         width: 20rem;
+        filter: hue-rotate(285deg);
     }
 }
 
