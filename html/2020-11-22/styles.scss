@@ -5,7 +5,16 @@
     --clr-primary-500: #880000;
     --clr-primary-600: #550000;
     --clr-accent-400: #55aa7f;
+    // --clr-accent-500: rebeccapurple;
+    --clr-accent-500: #550000;
     --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
+
+    // advent
+    // --clr-primary-400: #aa008e;
+    // --clr-primary-500: #610088;
+    // --clr-primary-600: #550051;
+    // --clr-accent-400: #ff6cda;
+    // --clr-bg: linear-gradient(150deg, #fbe7fd, #f7d4fa);
 
     --fs-400: 1rem;
     --fs-500: 1.4rem;
@@ -31,14 +40,6 @@ body {
     background: rgba(0, 0, 0, 0);
     width: 100vw;
     height: 100vh;
-}
-
-.advent {
-    --clr-primary-400: #aa008e;
-    --clr-primary-500: #610088;
-    --clr-primary-600: #550051;
-    --clr-accent-400: #ff6cda;
-    --clr-bg: linear-gradient(150deg, #fbe7fd, #f7d4fa);
 }
 
 %bordered-background {
@@ -123,6 +124,15 @@ p:not(:last-child) {
         background-size: cover;
         height: 10rem;
         width: 40rem;
+    }
+
+    &__title {
+        color: var(--clr-accent-500);
+        text-shadow: 2px 2px gray;
+    }
+
+    &__date {
+        font-style: italic;
     }
 }
 

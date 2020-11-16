@@ -1,17 +1,17 @@
 :root {
   --clr-normal-100: white;
   --clr-normal-400: black;
-  --clr-primary-400: #aa0000;
-  --clr-primary-500: #880000;
-  --clr-primary-600: #550000;
-  --clr-accent-400: #55aa7f;
-  --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
+  --clr-primary-400: #aa008e;
+  --clr-primary-500: #610088;
+  --clr-primary-600: #550051;
+  --clr-accent-400: #ff6cda;
+  --clr-bg: linear-gradient(150deg, #fbe7fd, #f7d4fa);
   --fs-400: 1rem;
   --fs-500: 1.4rem;
   --fs-600: 2.6rem;
   --ff-main: Arial, Helvetica, sans-serif;
   --ff-title: Georgia, 'Times New Roman', Times, serif;
-  --padding-bg: 1.25em;
+  --padding-bg: 3em;
 }
 
 *,
@@ -31,19 +31,11 @@ body {
   height: 100vh;
 }
 
-.advent {
-  --clr-primary-400: #aa008e;
-  --clr-primary-500: #610088;
-  --clr-primary-600: #550051;
-  --clr-accent-400: #ff6cda;
-  --clr-bg: linear-gradient(150deg, #fbe7fd, #f7d4fa);
-}
-
 .bordered-background::before {
   position: absolute;
   content: '';
-  height: calc(100% - 1em);
-  width: calc(100% - 1em);
+  height: calc(100% - var(--padding-bg));
+  width: calc(100% - var(--padding-bg));
   border: solid 4px var(--clr-primary-400);
 }
 
@@ -109,7 +101,24 @@ p:not(:last-child) {
   --fs-400: 1rem;
   --fs-500: 2rem;
   --fs-600: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 1rem;
+  border: 0.25rem solid var(--clr-primary-500);
+  padding: 1rem 2rem;
 }
 
 .title-page > *:not(:last-child) {
@@ -121,6 +130,17 @@ p:not(:last-child) {
   background-size: cover;
   height: 10rem;
   width: 40rem;
+  -webkit-filter: hue-rotate(285deg);
+          filter: hue-rotate(285deg);
+}
+
+.title-page__title {
+  color: var(--clr-accent-400);
+  text-shadow: 2px 2px var(--clr-primary-600);
+}
+
+.title-page__date {
+  font-style: italic;
 }
 
 h1 {
