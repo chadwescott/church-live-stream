@@ -11,7 +11,7 @@
   --fs-600: 2.6rem;
   --ff-main: Arial, Helvetica, sans-serif;
   --ff-title: Georgia, 'Times New Roman', Times, serif;
-  --padding-bg: 3em;
+  --padding-bg: 1.5em;
 }
 
 *,
@@ -115,6 +115,9 @@ p:not(:last-child) {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+}
+
+.title-page--bordered {
   background: rgba(255, 255, 255, 0.6);
   border-radius: 1rem;
   border: 0.25rem solid var(--clr-primary-500);
@@ -256,6 +259,26 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.video {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+}
+
+.video::before {
+  content: '';
+  position: absolute;
+  background-image: url(../images/sttheodores_header.png);
+  background-size: cover;
+  -webkit-filter: hue-rotate(285deg);
+          filter: hue-rotate(285deg);
+  bottom: 0;
+  left: 0;
+  height: 5rem;
+  width: 20rem;
 }
 
 ul[class] {
