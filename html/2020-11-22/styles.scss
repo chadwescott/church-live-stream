@@ -1,17 +1,24 @@
 :root {
     --clr-normal-100: white;
     --clr-normal-400: black;
+
+    // COLORS
+    // STANDARD
     --clr-primary-400: #aa0000;
     --clr-primary-500: #880000;
     --clr-primary-600: #550000;
+    --clr-accent-400: #55aa7f;
+    --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
+    --clr-accent-400-text-shadow: #333;
+    --clr-accent-500-text-shadow: black;
+
+    // FEAST (GOLD AND WHITE)
     --clr-accent-400: rgb(233, 202, 25);
     --clr-accent-400-text-shadow: #333;
-    // --clr-accent-500: rebeccapurple;
     --clr-accent-500: rgb(255, 215, 0);
-    --clr-accent-500-text-shadow: black;
-    --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
+    --clr-bg: linear-gradient(150deg, #ffe, #fff, #ffe);
 
-    // advent
+    // ADVENT
     // --clr-primary-400: #aa008e;
     // --clr-primary-500: #610088;
     // --clr-primary-600: #550051;
