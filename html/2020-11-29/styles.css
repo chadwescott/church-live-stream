@@ -12,7 +12,7 @@
   --clr-primary-500: #610088;
   --clr-primary-600: #550051;
   --clr-accent-400: #ff6cda;
-  --clr-bg: linear-gradient(150deg, #fbe7fd, #f7d4fa);
+  --clr-bg: linear-gradient(150deg, #f9effa, #fbf5fc, #f9effa);
   --fs-400: 1rem;
   --fs-500: 1.4rem;
   --fs-600: 2.6rem;
@@ -328,6 +328,7 @@ ul[class] {
   display: inline-block;
   white-space: pre;
   position: relative;
+  font-weight: 400;
   content: 'R: ';
 }
 /*# sourceMappingURL=styles.css.map */

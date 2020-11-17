@@ -326,6 +326,7 @@ ul[class] {
   display: inline-block;
   white-space: pre;
   position: relative;
+  font-weight: 400;
   content: 'R: ';
 }
 /*# sourceMappingURL=styles.css.map */
