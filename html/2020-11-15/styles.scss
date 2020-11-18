@@ -63,7 +63,7 @@ p:not(:last-child) {
     @extend %bordered-background;
 }
 
-.content.church-bg,
+.container.church-bg,
 .church-bg {
     position: relative;
     background-image: url(../images/sttheodoremain-2.jpg);
@@ -83,7 +83,7 @@ p:not(:last-child) {
     }
 }
 
-.content.dark-filter,
+.container.dark-filter,
 .dark-filter {
     position: relative;
     font-size: 4rem;
@@ -205,7 +205,7 @@ h3 {
     width: 100%;
 }
 
-.content {
+.container {
     position: relative;
     background: var(--clr-bg);
     min-height: 100%;

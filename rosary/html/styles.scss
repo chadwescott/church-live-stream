@@ -1,6 +1,6 @@
 :root {
     --clr-accent-400: #aa0000;
-    --clr-bg: #fffbe7;
+    --clr-bg: linear-gradient(150deg, #fffbe7, #fff, #fffbe7);
 
     --fs-500: 2.5rem;
     --fs-600: 3.5rem;
@@ -26,7 +26,7 @@ body {
     width: 100%;
 }
 
-.content {
+.container {
     position: relative;
     background: var(--clr-bg, #fffbe7);
     height: 1080px;
@@ -113,6 +113,7 @@ body {
             display: inline-block;
             white-space: pre;
             position: relative;
+            font-weight: 400;
             content: 'R: ';
         }
     }

@@ -1,6 +1,6 @@
 :root {
   --clr-accent-400: #aa0000;
-  --clr-bg: #fffbe7;
+  --clr-bg: linear-gradient(150deg, #fffbe7, #fff, #fffbe7);
   --fs-500: 2.5rem;
   --fs-600: 3.5rem;
   --fs-700: 3.75rem;
@@ -24,7 +24,7 @@ body {
   width: 100%;
 }
 
-.content {
+.container {
   position: relative;
   background: var(--clr-bg, #fffbe7);
   height: 1080px;
@@ -45,7 +45,7 @@ body {
           justify-content: center;
 }
 
-.content:before {
+.container:before {
   position: absolute;
   content: '';
   height: calc(100% - 1em);
@@ -53,7 +53,7 @@ body {
   border: solid 4px var(--clr-accent-400, #aa0000);
 }
 
-.content .heading {
+.container .heading {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 0px;
           flex: 0 0 0;
@@ -71,18 +71,18 @@ body {
   text-align: center;
 }
 
-.content .heading h1 {
+.container .heading h1 {
   font-size: var(--fs-700);
   line-height: 1.2;
 }
 
-.content .heading h2 {
+.container .heading h2 {
   font-size: var(--fs-600);
   line-height: 1;
   font-weight: 400;
 }
 
-.content .body {
+.container .body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
@@ -100,14 +100,14 @@ body {
   height: 100%;
 }
 
-.content .image {
+.container .image {
   position: relative;
   height: var(--mystery-img-height);
   -webkit-box-shadow: 4px 4px var(--clr-accent-400);
           box-shadow: 4px 4px var(--clr-accent-400);
 }
 
-.content .image img {
+.container .image img {
   height: var(--mystery-img-height);
 }
 
@@ -144,6 +144,7 @@ body {
   display: inline-block;
   white-space: pre;
   position: relative;
+  font-weight: 400;
   content: 'R: ';
 }
 

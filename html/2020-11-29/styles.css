@@ -19,6 +19,8 @@
   --ff-main: Arial, Helvetica, sans-serif;
   --ff-title: Georgia, 'Times New Roman', Times, serif;
   --padding-bg: 1.5em;
+  --title-image-height: 6rem;
+  --title-image-width: 24rem;
 }
 
 *,
@@ -38,13 +40,20 @@ body {
   height: 100vh;
 }
 
-.bordered-background::after, .content.church-bg::after,
+.bordered-background, .container.church-bg,
+.church-bg {
+  position: relative;
+}
+
+.bordered-background::after, .container.church-bg::after,
 .church-bg::after {
-  content: '';
   position: absolute;
-  height: calc(100% - var(--padding-bg));
-  width: calc(100% - var(--padding-bg));
-  border: solid 4px var(--clr-primary-400);
+  content: '';
+  top: calc(var(--padding-bg) / 2);
+  bottom: calc(var(--padding-bg) / 2);
+  left: calc(var(--padding-bg) / 2);
+  right: calc(var(--padding-bg) / 2);
+  border: solid 4px var(--clr-primary-500);
 }
 
 .left {
@@ -55,30 +64,28 @@ p:not(:last-child) {
   margin-bottom: 1em;
 }
 
-.content.church-bg,
+.container.church-bg,
 .church-bg {
-  position: relative;
   background-image: url(../images/sttheodoremain-2.jpg);
   background-size: cover;
   color: var(--clr-primary-500);
+  z-index: 0;
 }
 
-.content.church-bg::before,
+.container.church-bg::before,
 .church-bg::before {
   content: '';
   position: absolute;
-  height: 100%;
-  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background: var(--clr-bg);
   opacity: 0.9;
+  z-index: -1;
 }
 
-.content.church-bg > *,
-.church-bg > * {
-  z-index: 2;
-}
-
-.content.dark-filter,
+.container.dark-filter,
 .dark-filter {
   position: relative;
   font-size: 4rem;
@@ -86,7 +93,7 @@ p:not(:last-child) {
   background: unset;
 }
 
-.content.dark-filter::before,
+.container.dark-filter::before,
 .dark-filter::before {
   content: '';
   position: absolute;
@@ -95,12 +102,12 @@ p:not(:last-child) {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.content.dark-filter > *,
+.container.dark-filter > *,
 .dark-filter > * {
   z-index: 2;
 }
 
-.content.dark-filter p,
+.container.dark-filter p,
 .dark-filter p {
   white-space: pre-line;
   text-align: left;
@@ -133,8 +140,8 @@ p:not(:last-child) {
 .title-page__image {
   background-image: url(../images/sttheodores_header.png);
   background-size: cover;
-  height: 12rem;
-  width: 48rem;
+  height: var(--title-image-height);
+  width: var(--title-image-width);
   -webkit-filter: hue-rotate(285deg);
           filter: hue-rotate(285deg);
 }
@@ -142,7 +149,7 @@ p:not(:last-child) {
 .title-page__title {
   font-size: var(--fs-600);
   color: var(--clr-accent-400);
-  text-shadow: 2px 2px var(--clr-primary-600);
+  text-shadow: 2px 2px var(--clr-accent-500-text-shadow);
 }
 
 .title-page__date {
@@ -179,6 +186,8 @@ h3 {
     --fs-400: 3rem;
     --fs-500: 4rem;
     --fs-600: 5rem;
+    --title-image-height: 9rem;
+    --title-image-width: 36rem;
   }
 }
 
@@ -192,38 +201,22 @@ h3 {
     --fs-400: 4rem;
     --fs-500: 5rem;
     --fs-600: 6rem;
+    --title-image-height: 12rem;
+    --title-image-width: 48rem;
   }
 }
 
 .heading {
-  width: 100%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 0px;
-          flex: 0 0 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-bottom: 0.75em;
-  text-align: center;
 }
 
-.heading :not(:last-child) {
-  margin-bottom: 0.25em;
+.heading > * + * {
+  margin-top: 0.25em;
 }
 
 .verse {
   color: var(--clr-accent-400);
-  text-shadow: 1px 1px var(--clr-primary-600);
+  text-shadow: 1px 1px var(--clr-accent-400-text-shadow);
 }
 
 .body {
@@ -245,24 +238,10 @@ h3 {
   width: 100%;
 }
 
-.content {
-  position: relative;
+.container {
   background: var(--clr-bg);
   min-height: 100%;
   padding: var(--padding-bg);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .video {
@@ -280,8 +259,8 @@ h3 {
   left: 0;
   height: 5rem;
   width: 20rem;
-  -webkit-filter: hue-rotate(285deg) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
-          filter: hue-rotate(285deg) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
+  -webkit-filter: saturate(150%) hue-rotate(220deg) invert(90%) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
+          filter: saturate(150%) hue-rotate(220deg) invert(90%) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
 }
 
 ul[class] {

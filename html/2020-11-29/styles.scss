@@ -34,6 +34,8 @@
     --ff-title: Georgia, 'Times New Roman', Times, serif;
 
     --padding-bg: 1.5em;
+    --title-image-height: 6rem;
+    --title-image-width: 24rem;
 }
 
 *,
@@ -53,12 +55,16 @@ body {
 }
 
 %bordered-background {
+    position: relative;
+
     &::after {
-        content: '';
         position: absolute;
-        height: calc(100% - var(--padding-bg));
-        width: calc(100% - var(--padding-bg));
-        border: solid 4px var(--clr-primary-400);
+        content: '';
+        top: calc(var(--padding-bg) / 2);
+        bottom: calc(var(--padding-bg) / 2);
+        left: calc(var(--padding-bg) / 2);
+        right: calc(var(--padding-bg) / 2);
+        border: solid 4px var(--clr-primary-500);
     }
 }
 
@@ -74,29 +80,28 @@ p:not(:last-child) {
     @extend %bordered-background;
 }
 
-.content.church-bg,
+.container.church-bg,
 .church-bg {
     @extend %bordered-background;
-    position: relative;
     background-image: url(../images/sttheodoremain-2.jpg);
     background-size: cover;
     color: var(--clr-primary-500);
+    z-index: 0;
 
     &::before {
         content: '';
         position: absolute;
-        height: 100%;
-        width: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
         background: var(--clr-bg);
         opacity: 0.9;
-    }
-
-    & > * {
-        z-index: 2;
+        z-index: -1;
     }
 }
 
-.content.dark-filter,
+.container.dark-filter,
 .dark-filter {
     position: relative;
     font-size: 4rem;
@@ -138,15 +143,15 @@ p:not(:last-child) {
     &__image {
         background-image: url(../images/sttheodores_header.png);
         background-size: cover;
-        height: 12rem;
-        width: 48rem;
+        height: var(--title-image-height);
+        width: var(--title-image-width);
         filter: hue-rotate(285deg);
     }
 
     &__title {
         font-size: var(--fs-600);
         color: var(--clr-accent-400);
-        text-shadow: 2px 2px var(--clr-primary-600);
+        text-shadow: 2px 2px var(--clr-accent-500-text-shadow);
     }
 
     &__date {
@@ -185,6 +190,8 @@ h3 {
         --fs-400: 3rem;
         --fs-500: 4rem;
         --fs-600: 5rem;
+        --title-image-height: 9rem;
+        --title-image-width: 36rem;
     }
 }
 
@@ -199,27 +206,22 @@ h3 {
         --fs-400: 4rem;
         --fs-500: 5rem;
         --fs-600: 6rem;
+        --title-image-height: 12rem;
+        --title-image-width: 48rem;
     }
 }
 
 .heading {
-    width: 100%;
-    flex: 0 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
     margin-bottom: 0.75em;
-    text-align: center;
 
-    & :not(:last-child) {
-        margin-bottom: 0.25em;
+    & > * + * {
+        margin-top: 0.25em;
     }
 }
 
 .verse {
     color: var(--clr-accent-400);
-    text-shadow: 1px 1px var(--clr-primary-600);
+    text-shadow: 1px 1px var(--clr-accent-400-text-shadow);
 }
 
 .body {
@@ -234,15 +236,10 @@ h3 {
     width: 100%;
 }
 
-.content {
-    position: relative;
+.container {
     background: var(--clr-bg);
     min-height: 100%;
     padding: var(--padding-bg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .video {
@@ -259,7 +256,7 @@ h3 {
         left: 0;
         height: 5rem;
         width: 20rem;
-        filter: hue-rotate(285deg) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
+        filter: saturate(150%) hue-rotate(220deg) invert(90%) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
     }
 }
 

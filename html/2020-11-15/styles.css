@@ -55,7 +55,7 @@ p:not(:last-child) {
   margin-bottom: 1em;
 }
 
-.content.church-bg,
+.container.church-bg,
 .church-bg {
   position: relative;
   background-image: url(../images/sttheodoremain-2.jpg);
@@ -63,7 +63,7 @@ p:not(:last-child) {
   color: var(--clr-primary-500);
 }
 
-.content.church-bg::before,
+.container.church-bg::before,
 .church-bg::before {
   content: '';
   position: absolute;
@@ -72,12 +72,12 @@ p:not(:last-child) {
   background: rgba(255, 255, 255, 0.6);
 }
 
-.content.church-bg > *,
+.container.church-bg > *,
 .church-bg > * {
   z-index: 2;
 }
 
-.content.dark-filter,
+.container.dark-filter,
 .dark-filter {
   position: relative;
   font-size: 4rem;
@@ -85,7 +85,7 @@ p:not(:last-child) {
   background: unset;
 }
 
-.content.dark-filter::before,
+.container.dark-filter::before,
 .dark-filter::before {
   content: '';
   position: absolute;
@@ -94,12 +94,12 @@ p:not(:last-child) {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.content.dark-filter > *,
+.container.dark-filter > *,
 .dark-filter > * {
   z-index: 2;
 }
 
-.content.dark-filter p,
+.container.dark-filter p,
 .dark-filter p {
   white-space: pre-line;
   text-align: left;
@@ -218,7 +218,7 @@ h3 {
   width: 100%;
 }
 
-.content {
+.container {
   position: relative;
   background: var(--clr-bg);
   min-height: 100%;
