@@ -8,9 +8,9 @@
     --clr-primary-500: #880000;
     --clr-primary-600: #550000;
     --clr-accent-400: #55aa7f;
-    --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
     --clr-accent-400-text-shadow: #333;
     --clr-accent-500-text-shadow: black;
+    --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
 
     // FEAST (GOLD AND WHITE)
     // --clr-accent-400: rgb(233, 202, 25);
@@ -19,10 +19,11 @@
     // --clr-bg: linear-gradient(150deg, #ffd #fff, #ffc);
 
     // ADVENT
-    --clr-primary-400: #aa008e;
+    --clr-primary-400: #610088;
     --clr-primary-500: #610088;
     --clr-primary-600: #550051;
-    --clr-accent-400: #ff6cda;
+    // --clr-accent-400: #ff6cda;
+    --clr-accent-400: #6f00ff;
     --clr-bg: linear-gradient(150deg, #f9effa, #fbf5fc, #f9effa);
 
     --fs-400: 1rem;
@@ -52,9 +53,9 @@ body {
 }
 
 %bordered-background {
-    &::before {
-        position: absolute;
+    &::after {
         content: '';
+        position: absolute;
         height: calc(100% - var(--padding-bg));
         width: calc(100% - var(--padding-bg));
         border: solid 4px var(--clr-primary-400);
@@ -75,6 +76,7 @@ p:not(:last-child) {
 
 .content.church-bg,
 .church-bg {
+    @extend %bordered-background;
     position: relative;
     background-image: url(../images/sttheodoremain-2.jpg);
     background-size: cover;
@@ -85,7 +87,8 @@ p:not(:last-child) {
         position: absolute;
         height: 100%;
         width: 100%;
-        background: rgba(255, 255, 255, 0.6);
+        background: var(--clr-bg);
+        opacity: 0.9;
     }
 
     & > * {
@@ -128,15 +131,8 @@ p:not(:last-child) {
     justify-content: center;
     text-align: center;
 
-    &--bordered {
-        background: rgba(255, 255, 255, 0.6);
-        border-radius: 1rem;
-        border: 0.25rem solid var(--clr-primary-500);
-        padding: 4rem;
-    }
-
-    & > *:not(:last-child) {
-        margin-bottom: 1rem;
+    & * + * {
+        margin-top: 2rem;
     }
 
     &__image {
@@ -148,6 +144,7 @@ p:not(:last-child) {
     }
 
     &__title {
+        font-size: var(--fs-600);
         color: var(--clr-accent-400);
         text-shadow: 2px 2px var(--clr-primary-600);
     }
@@ -262,7 +259,7 @@ h3 {
         left: 0;
         height: 5rem;
         width: 20rem;
-        filter: hue-rotate(285deg);
+        filter: hue-rotate(285deg) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
     }
 }
 
