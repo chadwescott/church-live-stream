@@ -15,11 +15,17 @@
   --fs-400: 1rem;
   --fs-500: 1.4rem;
   --fs-600: 2.6rem;
+  --fs-700: 4rem;
   --ff-main: Arial, Helvetica, sans-serif;
   --ff-title: Georgia, 'Times New Roman', Times, serif;
   --padding-bg: 1.5em;
   --title-image-height: 6rem;
   --title-image-width: 24rem;
+}
+
+@font-face {
+  font-family: 'Script MT Bold';
+  src: url(../fonts/SCRIPTBL.TTF);
 }
 
 *,
@@ -302,5 +308,31 @@ ul[class] {
   position: relative;
   font-weight: 400;
   content: 'R: ';
+}
+
+.thanksgiving {
+  position: relative;
+  width: 100%;
+  margin-top: 4rem;
+  font-size: var(--fs-700);
+  font-size: 9rem;
+  font-family: 'Script MT Bold', Georgia, 'Times New Roman', Times, serif;
+  color: #5a2e0e;
+  text-shadow: 2px 2px orange;
+  text-align: center;
+  z-index: 2;
+}
+
+.thanksgiving.bg-image::before {
+  content: '';
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  right: 0;
+  bottom: -5rem;
+  z-index: -1;
+  background-image: url(../images/fall-borders-2018-26.jpg);
+  background-size: contain;
+  opacity: 0.6;
 }
 /*# sourceMappingURL=styles.css.map */
