@@ -11,12 +11,14 @@
     --clr-accent-400-text-shadow: #333;
     --clr-accent-500-text-shadow: black;
     --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
+    // --image-filter: none;
 
     // FEAST (GOLD AND WHITE)
     // --clr-accent-400: rgb(233, 202, 25);
     // --clr-accent-400-text-shadow: #333;
     // --clr-accent-500: rgb(255, 215, 0);
     // --clr-bg: linear-gradient(150deg, #ffd #fff, #ffc);
+    // --image-filter: saturate(150%) hue-rotate(220deg) invert(90%) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
 
     // ADVENT
     --clr-primary-400: #610088;
@@ -25,6 +27,7 @@
     // --clr-accent-400: #ff6cda;
     --clr-accent-400: #6f00ff;
     --clr-bg: linear-gradient(150deg, #f9effa, #fbf5fc, #f9effa);
+    --image-filter: hue-rotate(285deg);
 
     --fs-400: 1rem;
     --fs-500: 1.4rem;
@@ -153,7 +156,7 @@ p:not(:last-child) {
         background-size: cover;
         height: var(--title-image-height);
         width: var(--title-image-width);
-        filter: hue-rotate(285deg);
+        filter: var(--image-filter);
     }
 
     &__title {
@@ -230,6 +233,7 @@ h3 {
 .verse {
     color: var(--clr-accent-400);
     text-shadow: 1px 1px var(--clr-accent-400-text-shadow);
+    text-transform: uppercase;
 }
 
 .body {
@@ -264,8 +268,7 @@ h3 {
         left: 0;
         height: 5rem;
         width: 20rem;
-        filter: hue-rotate(285deg);
-        // filter: saturate(150%) hue-rotate(220deg) invert(90%) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
+        filter: var(--image-filter);
     }
 }
 

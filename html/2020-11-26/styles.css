@@ -7,8 +7,15 @@
   --clr-accent-400: #55aa7f;
   --clr-accent-400-text-shadow: #333;
   --clr-accent-500-text-shadow: black;
-  --clr-bg: linear-gradient(150deg, #fff9dd, #fffceb, #fff9dd);
+  --clr-bg: linear-gradient(135deg, #fff9dd, #fffceb, #fff9dd);
   --image-filter: none;
+  --clr-primary-400: #aa0000;
+  --clr-primary-500: #880000;
+  --clr-primary-600: #550000;
+  --clr-accent-400: darkorange;
+  --clr-accent-400-text-shadow: #6b3610;
+  --clr-accent-500-text-shadow: #6b3610;
+  --clr-bg: linear-gradient(135deg, #ffe4bb, #fffcce, #ffe4bb);
   --fs-400: 1rem;
   --fs-500: 1.4rem;
   --fs-600: 2.6rem;
@@ -226,6 +233,7 @@ h3 {
 .verse {
   color: var(--clr-accent-400);
   text-shadow: 1px 1px var(--clr-accent-400-text-shadow);
+  text-transform: uppercase;
 }
 
 .body {
@@ -338,8 +346,5 @@ ul[class] {
   right: 0;
   bottom: -5rem;
   z-index: -1;
-  background-image: url(../images/fall-borders-2018-26.jpg);
-  background-size: contain;
-  opacity: 0.6;
 }
 /*# sourceMappingURL=styles.css.map */

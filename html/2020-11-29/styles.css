@@ -13,6 +13,7 @@
   --clr-primary-600: #550051;
   --clr-accent-400: #6f00ff;
   --clr-bg: linear-gradient(150deg, #f9effa, #fbf5fc, #f9effa);
+  --image-filter: hue-rotate(285deg);
   --fs-400: 1rem;
   --fs-500: 1.4rem;
   --fs-600: 2.6rem;
@@ -150,8 +151,8 @@ p:not(:last-child) {
   background-size: cover;
   height: var(--title-image-height);
   width: var(--title-image-width);
-  -webkit-filter: hue-rotate(285deg);
-          filter: hue-rotate(285deg);
+  -webkit-filter: var(--image-filter);
+          filter: var(--image-filter);
 }
 
 .title-page__title {
@@ -225,6 +226,7 @@ h3 {
 .verse {
   color: var(--clr-accent-400);
   text-shadow: 1px 1px var(--clr-accent-400-text-shadow);
+  text-transform: uppercase;
 }
 
 .body {
@@ -267,8 +269,8 @@ h3 {
   left: 0;
   height: 5rem;
   width: 20rem;
-  -webkit-filter: hue-rotate(285deg);
-          filter: hue-rotate(285deg);
+  -webkit-filter: var(--image-filter);
+          filter: var(--image-filter);
 }
 
 ul[class] {

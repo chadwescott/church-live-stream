@@ -10,14 +10,14 @@
     --clr-accent-400: #55aa7f;
     --clr-accent-400-text-shadow: #333;
     --clr-accent-500-text-shadow: black;
-    --clr-bg: linear-gradient(150deg, #fff9dd, #fffceb, #fff9dd);
+    --clr-bg: linear-gradient(135deg, #fff9dd, #fffceb, #fff9dd);
     --image-filter: none;
 
     // FEAST (GOLD AND WHITE)
     // --clr-accent-400: rgb(233, 202, 25);
     // --clr-accent-400-text-shadow: #333;
     // --clr-accent-500: rgb(255, 215, 0);
-    // --clr-bg: linear-gradient(150deg, #ffd #fff, #ffc);
+    // --clr-bg: linear-gradient(135deg, #ffd #fff, #ffc);
     // --image-filter: saturate(150%) hue-rotate(220deg) invert(90%) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
 
     // ADVENT
@@ -26,8 +26,21 @@
     // --clr-primary-600: #550051;
     // --clr-accent-400: #ff6cda;
     // --clr-accent-400: #6f00ff;
-    // --clr-bg: linear-gradient(150deg, #f9effa, #fbf5fc, #f9effa);
+    // --clr-bg: linear-gradient(135deg, #f9effa, #fbf5fc, #f9effa);
     // --image-filter: hue-rotate(285deg);
+
+    // THANKSGIVING
+    --clr-primary-400: #aa0000;
+    --clr-primary-500: #880000;
+    --clr-primary-600: #550000;
+    --clr-accent-400: darkorange;
+    --clr-accent-400-text-shadow: #6b3610;
+    --clr-accent-500-text-shadow: #6b3610;
+    // --clr-bg: linear-gradient(135deg, #ffe7c3, #ffe1e1, #ffe7c3);
+    --clr-bg: linear-gradient(135deg, #ffe4bb, #fffcce, #ffe4bb);
+    // --image-filter: hue-rotate(180deg);
+    // --image-filter: saturate(300%) hue-rotate(200deg) invert(100%)
+    //     drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
 
     --fs-400: 1rem;
     --fs-500: 1.4rem;
@@ -238,6 +251,7 @@ h3 {
 .verse {
     color: var(--clr-accent-400);
     text-shadow: 1px 1px var(--clr-accent-400-text-shadow);
+    text-transform: uppercase;
 }
 
 .body {
@@ -341,8 +355,8 @@ ul[class] {
         bottom: -5rem;
         z-index: -1;
 
-        background-image: url(../images/fall-borders-2018-26.jpg);
-        background-size: contain;
-        opacity: 0.6;
+        // background-image: url(../images/fall-borders-2018-26.jpg);
+        // background-size: contain;
+        // opacity: 0.6;
     }
 }
