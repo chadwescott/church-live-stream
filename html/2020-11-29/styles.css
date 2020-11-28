@@ -230,16 +230,6 @@ h3 {
 }
 
 .body {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 100%;
-          flex: 1 1 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: colum;
-          flex-direction: colum;
   height: 100%;
   line-height: 1.4;
 }
@@ -315,5 +305,28 @@ ul[class] {
   position: relative;
   font-weight: 400;
   content: 'R: ';
+}
+
+.advent-image::before {
+  content: '';
+  position: absolute;
+  bottom: var(--padding-bg);
+  right: var(--padding-bg);
+  height: 26rem;
+  width: 38rem;
+  background: url("../../images/advent-week-1.jpg");
+  background-size: cover;
+}
+
+.advent-image__spacer {
+  float: right;
+  width: 10px;
+  height: 30rem;
+}
+
+.advent-image__image {
+  float: right;
+  clear: right;
+  padding-left: 1rem;
 }
 /*# sourceMappingURL=styles.css.map */

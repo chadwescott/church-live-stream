@@ -237,9 +237,6 @@ h3 {
 }
 
 .body {
-    flex: 1 1 100%;
-    display: flex;
-    flex-direction: colum;
     height: 100%;
     line-height: 1.4;
 }
@@ -312,5 +309,30 @@ ul[class] {
             font-weight: 400;
             content: 'R: ';
         }
+    }
+}
+
+.advent-image::before {
+    content: '';
+    position: absolute;
+    bottom: var(--padding-bg);
+    right: var(--padding-bg);
+    height: 26rem;
+    width: 38rem;
+    background: url('../../images/advent-week-1.jpg');
+    background-size: cover;
+}
+
+.advent-image {
+    &__spacer {
+        float: right;
+        width: 10px;
+        height: 30rem;
+    }
+
+    &__image {
+        float: right;
+        clear: right;
+        padding-left: 1rem;
     }
 }
