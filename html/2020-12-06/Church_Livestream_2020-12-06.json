@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Title",
-    "current_scene": "Title",
+    "current_program_scene": "Gospel Acclamation",
+    "current_scene": "Gospel Acclamation",
     "current_transition": "Luma Wipe",
     "groups": [
         {
@@ -301,7 +301,7 @@
             "name": "Reading 2.2"
         },
         {
-            "name": "Alleluia"
+            "name": "Gospel Acclamation"
         },
         {
             "name": "Gospel 1"
@@ -3518,18 +3518,18 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Alleluia Web": [],
                 "libobs.hide_scene_item.Audio": [],
+                "libobs.hide_scene_item.Gospel Acclamation Web": [],
                 "libobs.hide_scene_item.Video": [],
-                "libobs.show_scene_item.Alleluia Web": [],
                 "libobs.show_scene_item.Audio": [],
+                "libobs.show_scene_item.Gospel Acclamation Web": [],
                 "libobs.show_scene_item.Video": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Alleluia",
+            "name": "Gospel Acclamation",
             "prev_ver": 436207618,
             "private_settings": {},
             "push-to-mute": false,
@@ -3729,7 +3729,7 @@
                         "group_item_backup": false,
                         "id": 26,
                         "locked": false,
-                        "name": "Alleluia Web",
+                        "name": "Gospel Acclamation Web",
                         "pos": {
                             "x": 960.0,
                             "y": 0.0
@@ -8129,7 +8129,7 @@
             "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Alleluia Web",
+            "name": "Gospel Acclamation Web",
             "prev_ver": 436207618,
             "private_settings": {},
             "push-to-mute": false,
@@ -8140,7 +8140,7 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2020-12-06/alleluia.html",
+                "local_file": "C:/git/church-live-stream/html/2020-12-06/gospel-acclamation.html",
                 "restart_when_active": true,
                 "width": 960
             },
