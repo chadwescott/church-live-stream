@@ -312,17 +312,6 @@ ul[class] {
     }
 }
 
-.advent-image::before {
-    content: '';
-    position: absolute;
-    bottom: var(--padding-bg);
-    right: var(--padding-bg);
-    height: 26rem;
-    width: 38rem;
-    background: url('../../images/advent-week-1.jpg');
-    background-size: cover;
-}
-
 .advent-image {
     &__spacer {
         float: right;
