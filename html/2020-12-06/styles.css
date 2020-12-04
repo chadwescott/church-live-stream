@@ -310,21 +310,26 @@ ul[class] {
   content: 'R: ';
 }
 
-.advent-image {
-  --image-height: 385px;
+.advent {
+  --image-height: 500px;
 }
 
 .advent-image__spacer {
   float: right;
   width: 0;
   height: 30rem;
-  height: calc(100% - var(--image-height, 385px));
+  height: calc(100% - var(--image-height));
 }
 
 .advent-image__image {
   float: right;
   clear: right;
   padding-left: 1rem;
-  height: var(--image-height, 385px);
+  height: var(--image-height);
+}
+
+.advent-image__image img {
+  height: var(--image-height);
+  width: auto;
 }
 /*# sourceMappingURL=styles.css.map */
