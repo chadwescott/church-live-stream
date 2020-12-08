@@ -1,39 +1,33 @@
 :root {
   --clr-normal-100: white;
   --clr-normal-400: black;
-  --clr-primary-400: #aa0000;
-  --clr-primary-500: #880000;
-  --clr-primary-600: #550000;
-  --clr-accent-400: #55aa7f;
-  --clr-accent-400-text-shadow: #333;
+  --clr-border: #880000;
+  --clr-primary: #550000;
+  --clr-accent: #55aa7f;
+  --clr-accent-text-shadow: #333;
   --clr-accent-500-text-shadow: black;
   --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
-  --clr-bg-dark: linear-gradient(150deg, #222, #000, #222);
-  --clr-primary-400: #aa0000;
-  --clr-primary-500: #880000;
-  --clr-primary-600: #550000;
-  --clr-accent-400: rgb(233, 202, 25);
-  --clr-accent-400-text-shadow: #cc0;
-  --clr-accent-500: rgb(255, 215, 0);
-  --clr-bg: linear-gradient(150deg, #ffd, #fff, #ffc);
-  --image-filter: brightness(0) invert(1) drop-shadow(0 0 60px var(--clr-accent-400-text-shadow));
+  --clr-border: #610088;
+  --clr-primary: #550051;
+  --clr-accent: #6f00ff;
+  --clr-bg: linear-gradient(150deg, #f9effa, #fbf5fc, #f9effa);
+  --image-filter: hue-rotate(285deg);
+  --clr-border: #ff82e4;
+  --clr-primary: #3f1635;
+  --clr-accent: #ff82e4;
+  --clr-bg: linear-gradient(150deg, #fdefff, #ffebfa, #fdefff);
+  --image-filter: hue-rotate(325deg) brightness(500%);
   --fs-400: 1rem;
   --fs-500: 1.4rem;
-  --fs-600: 2.6rem;
+  --fs-600: 2.8rem;
   --ff-main: Arial, Helvetica, sans-serif;
-  --ff-title: Georgia, 'Times New Roman', Times, serif;
+  --ff-title: Maitree, Georgia, 'Times New Roman', Times, serif;
   --padding-bg: 1.5em;
   --title-image-height: 6rem;
   --title-image-width: 24rem;
 }
 
-.title-page {
-  --fs-400: 1rem;
-  --fs-500: 2rem;
-  --fs-600: 3rem;
-}
-
-@media (min-width: 600px) {
+@media (min-height: 600px) {
   :root {
     --fs-400: 1.2rem;
     --fs-500: 2.4rem;
@@ -48,7 +42,7 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (min-height: 900px) {
   :root {
     --fs-400: 2rem;
     --fs-500: 2.4rem;
@@ -57,9 +51,9 @@
   .title-page {
     --fs-400: 4rem;
     --fs-500: 5rem;
-    --fs-600: 6rem;
-    --title-image-height: 12rem;
-    --title-image-width: 48rem;
+    --fs-600: 7rem;
+    --title-image-height: 15rem;
+    --title-image-width: 60rem;
   }
 }
 
@@ -80,8 +74,29 @@ body {
 body {
   font-size: var(--fs-500);
   font-family: var(--ff-main);
-  color: var(--clr-primary-600);
+  color: var(--clr-primary);
   background: rgba(0, 0, 0, 0);
+}
+
+@font-face {
+  font-family: 'Maitree';
+  src: url(../fonts/Maitree/Maitree-Light.ttf);
+}
+
+.bordered-background, .container.church-bg,
+.church-bg {
+  position: relative;
+}
+
+.bordered-background::after, .container.church-bg::after,
+.church-bg::after {
+  position: absolute;
+  content: '';
+  top: calc(var(--padding-bg) / 2);
+  bottom: calc(var(--padding-bg) / 2);
+  left: calc(var(--padding-bg) / 2);
+  right: calc(var(--padding-bg) / 2);
+  border: solid 4px var(--clr-border);
 }
 
 .left {
@@ -93,28 +108,10 @@ p:not(:last-child) {
 }
 
 .container.church-bg,
-.church-bg,
-.bordered-background {
-  position: relative;
-}
-
-.container.church-bg::after,
-.church-bg::after,
-.bordered-background::after {
-  position: absolute;
-  content: '';
-  top: calc(var(--padding-bg) / 2);
-  bottom: calc(var(--padding-bg) / 2);
-  left: calc(var(--padding-bg) / 2);
-  right: calc(var(--padding-bg) / 2);
-  border: solid 4px var(--clr-accent-400);
-}
-
-.container.church-bg,
 .church-bg {
   background-image: url(../images/sttheodoremain-2.jpg);
   background-size: cover;
-  color: var(--clr-primary-500);
+  color: var(--clr-primary);
   z-index: 0;
 }
 
@@ -159,16 +156,11 @@ p:not(:last-child) {
   text-align: left;
 }
 
-[dark] {
-  --clr-bg: var(--clr-bg-dark);
-}
-
 .padding--small {
   --padding-bg: 0.75em;
 }
 
 .title-page {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,34 +177,29 @@ p:not(:last-child) {
   text-align: center;
 }
 
-.title-page * + * {
-  margin-top: 2rem;
-}
-
-.title-page__footer img {
-  width: 30%;
-}
-
 .title-page p {
   line-height: 1.4;
 }
 
 .title-page__image {
-  background-image: url(../images/sttheodores_header.png);
-  background-size: cover;
-  height: var(--title-image-height);
-  width: var(--title-image-width);
   -webkit-filter: var(--image-filter);
           filter: var(--image-filter);
+  margin-bottom: 4rem;
+}
+
+.title-page__image img {
+  height: var(--title-image-height);
+  width: var(--title-image-width);
 }
 
 .title-page__title {
   font-size: var(--fs-600);
-  color: var(--clr-accent-400);
-  text-shadow: 2px 2px var(--clr-accent-500-text-shadow);
+  color: var(--clr-accent);
+  text-shadow: 2px 2px var(--clr-accent-text-shadow);
 }
 
 .title-page__date {
+  margin-top: 2rem;
   font-style: italic;
 }
 
@@ -245,8 +232,8 @@ h3 {
 }
 
 .verse {
-  color: var(--clr-accent-400);
-  text-shadow: 1px 1px var(--clr-accent-400-text-shadow);
+  color: var(--clr-accent);
+  text-shadow: 1px 1px var(--clr-accent-text-shadow);
   text-transform: uppercase;
 }
 
@@ -277,8 +264,8 @@ h3 {
   background-size: cover;
   bottom: 0;
   left: 0;
-  height: 5rem;
-  width: 20rem;
+  height: 4.5rem;
+  width: 18rem;
   -webkit-filter: var(--image-filter);
           filter: var(--image-filter);
 }
@@ -327,32 +314,31 @@ ul[class] {
   content: 'R: ';
 }
 
-.announcement {
-  --image-height: 20rem;
+.announcements {
+  --image-height: 500px;
+  --fs-500: 2.75rem;
 }
 
-.announcement-image__spacer {
+.announcements h1 {
+  --fs-600: 5rem;
+}
+
+.announcements-image__spacer {
   float: right;
   width: 0;
-  height: 30rem;
+  height: 28rem;
   height: calc(100% - var(--image-height));
 }
 
-.announcement-image__image {
-  position: relative;
+.announcements-image__image {
   float: right;
   clear: right;
   padding-left: 1rem;
   height: var(--image-height);
 }
 
-.announcement-image__image img {
-  position: relative;
+.announcements-image__image img {
   height: var(--image-height);
-  mix-blend-mode: multiply;
-}
-
-.image-circle img {
-  border-radius: 50%;
+  width: auto;
 }
 /*# sourceMappingURL=styles.css.map */

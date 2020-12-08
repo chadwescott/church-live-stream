@@ -11,15 +11,15 @@
   --clr-accent-400-text-shadow: #333;
   --clr-accent-500-text-shadow: black;
   --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
+  --clr-bg-dark: linear-gradient(150deg, #222, #000, #222);
   // --image-filter: none;
 
   // FEAST (GOLD AND WHITE)
-  --clr-accent-400: rgb(233, 202, 25);
-  --clr-accent-400-text-shadow: #333;
-  --clr-accent-500: rgb(255, 215, 0);
-  --clr-bg: linear-gradient(150deg, #ffd, #fff, #ffc);
-  --image-filter: saturate(150%) hue-rotate(220deg) invert(90%)
-    drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
+  // --clr-accent-400: rgb(233, 202, 25);
+  // --clr-accent-400-text-shadow: #333;
+  // --clr-accent-500: rgb(255, 215, 0);
+  // --clr-bg: linear-gradient(150deg, #ffd, #fff, #ffc);
+  // --image-filter: saturate(150%) hue-rotate(220deg) invert(90%) drop-shadow(1px 1px var(--clr-accent-400-text-shadow));
 
   // ADVENT
   //   --clr-primary-400: #610088;
@@ -30,23 +30,39 @@
   //   --clr-bg: linear-gradient(150deg, #f9effa, #fbf5fc, #f9effa);
   //   --image-filter: hue-rotate(285deg);
 
-  --fs-400: 0.6rem;
-  --fs-500: 1rem;
-  --fs-600: 2rem;
+  // CHRISTMAS VIGIL
+  --clr-primary-400: #aa0000;
+  --clr-primary-500: #880000;
+  --clr-primary-600: #550000;
+  --clr-accent-400: rgb(233, 202, 25);
+  --clr-accent-400-text-shadow: #cc0;
+  --clr-accent-500: rgb(255, 215, 0);
+  --clr-bg: linear-gradient(150deg, #ffd, #fff, #ffc);
+  --image-filter: brightness(0) invert(1) drop-shadow(0 0 60px var(--clr-accent-400-text-shadow));
+
+  --fs-400: 1rem;
+  --fs-500: 1.4rem;
+  --fs-600: 2.6rem;
 
   --ff-main: Arial, Helvetica, sans-serif;
-  --ff-title: Georgia, "Times New Roman", Times, serif;
+  --ff-title: Georgia, 'Times New Roman', Times, serif;
 
   --padding-bg: 1.5em;
   --title-image-height: 6rem;
   --title-image-width: 24rem;
 }
 
-@media (min-width: 800px) {
+.title-page {
+  --fs-400: 1rem;
+  --fs-500: 2rem;
+  --fs-600: 3rem;
+}
+
+@media (min-width: 600px) {
   :root {
-    --fs-400: 1rem;
-    --fs-500: 1.4rem;
-    --fs-600: 2.4rem;
+    --fs-400: 1.2rem;
+    --fs-500: 2.4rem;
+    --fs-600: 3.2rem;
   }
 
   .title-page {
@@ -58,7 +74,7 @@
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 900px) {
   :root {
     --fs-400: 2rem;
     --fs-500: 2.4rem;
@@ -109,7 +125,7 @@ p:not(:last-child) {
 
   &::after {
     position: absolute;
-    content: "";
+    content: '';
     top: calc(var(--padding-bg) / 2);
     bottom: calc(var(--padding-bg) / 2);
     left: calc(var(--padding-bg) / 2);
@@ -126,7 +142,7 @@ p:not(:last-child) {
   z-index: 0;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -146,7 +162,7 @@ p:not(:last-child) {
   background: unset;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     height: 100%;
     width: 100%;
@@ -163,15 +179,16 @@ p:not(:last-child) {
   }
 }
 
+[dark] {
+  --clr-bg: var(--clr-bg-dark);
+}
+
 .padding--small {
   --padding-bg: 0.75em;
 }
 
 .title-page {
   position: relative;
-  --fs-400: 1rem;
-  --fs-500: 2rem;
-  --fs-600: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -265,7 +282,7 @@ h3 {
   width: 100%;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     background-image: url(../images/sttheodores_header.png);
     background-size: cover;
@@ -295,7 +312,7 @@ ul[class] {
     &:before {
       display: inline-block;
       white-space: pre;
-      content: "V: ";
+      content: 'V: ';
     }
   }
 
@@ -303,7 +320,7 @@ ul[class] {
     &:before {
       display: inline-block;
       white-space: pre;
-      content: "Priest: ";
+      content: 'Priest: ';
     }
   }
 
@@ -315,7 +332,7 @@ ul[class] {
       white-space: pre;
       position: relative;
       font-weight: 400;
-      content: "R: ";
+      content: 'R: ';
     }
   }
 }
