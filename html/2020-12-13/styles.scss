@@ -61,7 +61,7 @@
     }
 }
 
-@media (min-height: 900px) {
+@media (min-height: 900px) and (min-width: 900px) {
     :root {
         --fs-400: 2rem;
         --fs-500: 2.4rem;
@@ -71,7 +71,7 @@
     .title-page {
         --fs-400: 4rem;
         --fs-500: 5rem;
-        --fs-600: 7rem;
+        --fs-600: 8rem;
         --title-image-height: 15rem;
         --title-image-width: 60rem;
     }
@@ -193,7 +193,7 @@ p:not(:last-child) {
 
     &__image {
         filter: var(--image-filter);
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
 
         img {
             height: var(--title-image-height);
