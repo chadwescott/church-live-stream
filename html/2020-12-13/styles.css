@@ -25,6 +25,7 @@
   --padding-bg: 1.5em;
   --title-image-height: 6rem;
   --title-image-width: 24rem;
+  --spacer: 1rem;
 }
 
 @media (min-height: 600px) {
@@ -80,7 +81,7 @@ body {
 
 @font-face {
   font-family: 'Maitree';
-  src: url(../fonts/Maitree/Maitree-Light.ttf);
+  src: url(../fonts/Maitree/Maitree-Regular.ttf);
 }
 
 .bordered-background, .container.church-bg,
@@ -203,12 +204,25 @@ p:not(:last-child) {
   font-style: italic;
 }
 
+.title-page h2 ~ h2 {
+  margin-top: calc(2 * var(--spacer));
+}
+
 h1 {
+  position: relative;
+  display: inline-block;
   font-size: var(--fs-600);
   line-height: 1.2;
   font-family: var(--ff-title);
-  text-decoration: underline;
-  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+h1::before {
+  content: '';
+  position: absolute;
+  bottom: 0.175em;
+  width: 100%;
+  border-bottom: 2px solid var(--clr-primary);
 }
 
 h2 {
