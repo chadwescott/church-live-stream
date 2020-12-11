@@ -12,11 +12,6 @@
   --clr-accent: #6f00ff;
   --clr-bg: linear-gradient(150deg, #f9effa, #fbf5fc, #f9effa);
   --image-filter: hue-rotate(285deg);
-  --clr-border: #ff82e4;
-  --clr-primary: #3f1635;
-  --clr-accent: #ff82e4;
-  --clr-bg: linear-gradient(150deg, #fdefff, #ffebfa, #fdefff);
-  --image-filter: hue-rotate(325deg) brightness(500%);
   --fs-400: 1rem;
   --fs-500: 1.4rem;
   --fs-600: 2.8rem;
@@ -43,7 +38,7 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (min-height: 900px) and (min-width: 900px) {
   :root {
     --fs-400: 2rem;
     --fs-500: 2.4rem;
