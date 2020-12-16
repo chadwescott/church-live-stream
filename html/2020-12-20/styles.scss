@@ -43,6 +43,9 @@
     --title-image-height: 6rem;
     --title-image-width: 24rem;
 
+    --conclusion-image-height: 5rem;
+    --conclusion-image-width: 20rem;
+
     --spacer: 1rem;
 }
 
@@ -62,7 +65,7 @@
     }
 }
 
-@media (min-height: 900px) and (min-width: 900px) {
+@media (min-width: 900px) {
     :root {
         --fs-400: 2rem;
         --fs-500: 2.4rem;
@@ -75,6 +78,14 @@
         --fs-600: 8rem;
         --title-image-height: 15rem;
         --title-image-width: 60rem;
+    }
+
+    .conclusion {
+        --fs-400: 4rem;
+        --fs-500: 5rem;
+        --fs-600: 6rem;
+        --conclusion-image-height: 12rem;
+        --conclusion-image-width: 48rem;
     }
 }
 
@@ -179,6 +190,28 @@ p:not(:last-child) {
 
 .padding--small {
     --padding-bg: 0.75em;
+}
+
+.centered-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.conclusion {
+    font-size: var(--fs-600);
+
+    &__image {
+        filter: var(--image-filter);
+        margin-bottom: 3rem;
+
+        img {
+            height: var(--conclusion-image-height);
+            width: var(--conclusion-image-width);
+        }
+    }
 }
 
 .title-page {

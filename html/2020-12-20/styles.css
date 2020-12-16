@@ -20,6 +20,8 @@
   --padding-bg: 3.675rem;
   --title-image-height: 6rem;
   --title-image-width: 24rem;
+  --conclusion-image-height: 5rem;
+  --conclusion-image-width: 20rem;
   --spacer: 1rem;
 }
 
@@ -38,7 +40,7 @@
   }
 }
 
-@media (min-height: 900px) and (min-width: 900px) {
+@media (min-width: 900px) {
   :root {
     --fs-400: 2rem;
     --fs-500: 2.4rem;
@@ -50,6 +52,13 @@
     --fs-600: 8rem;
     --title-image-height: 15rem;
     --title-image-width: 60rem;
+  }
+  .conclusion {
+    --fs-400: 4rem;
+    --fs-500: 5rem;
+    --fs-600: 6rem;
+    --conclusion-image-height: 12rem;
+    --conclusion-image-width: 48rem;
   }
 }
 
@@ -154,6 +163,38 @@ p:not(:last-child) {
 
 .padding--small {
   --padding-bg: 0.75em;
+}
+
+.centered-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.conclusion {
+  font-size: var(--fs-600);
+}
+
+.conclusion__image {
+  -webkit-filter: var(--image-filter);
+          filter: var(--image-filter);
+  margin-bottom: 3rem;
+}
+
+.conclusion__image img {
+  height: var(--conclusion-image-height);
+  width: var(--conclusion-image-width);
 }
 
 .title-page {
