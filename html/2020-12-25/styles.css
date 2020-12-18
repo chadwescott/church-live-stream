@@ -9,7 +9,7 @@
   --clr-primary: #880000;
   --clr-accent: rgb(233, 202, 25);
   --clr-accent-text-shadow: #220;
-  --clr-bg: linear-gradient(150deg, #ffd, #ffe, #ffd);
+  --clr-bg: linear-gradient(135deg, #fff, #eee, #fff);
   --image-filter: none;
   --fs-400: 1rem;
   --fs-500: 1.4rem;

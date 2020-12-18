@@ -30,12 +30,14 @@
   // --clr-accent: #ff82e4;
   // --clr-bg: linear-gradient(150deg, #fdefff, #ffebfa, #fdefff);
   // --image-filter: hue-rotate(325deg) brightness(500%);
+  // --clr-img-bg: var(--clr-bg);
 
   // CHRISTMAS VIGIL
   --clr-primary: #880000;
   --clr-accent: rgb(233, 202, 25);
   --clr-accent-text-shadow: #220;
-  --clr-bg: linear-gradient(150deg, #ffd, #ffe, #ffd);
+  // --clr-img-bg: linear-gradient(135deg, #222, #333, #222);
+  --clr-bg: linear-gradient(135deg, #fff, #eee, #fff);
   --image-filter: none;
 
   --fs-400: 1rem;
