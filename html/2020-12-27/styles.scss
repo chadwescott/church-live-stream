@@ -1,0 +1,153 @@
+:root {
+    --clr-normal-100: white;
+    --clr-normal-400: black;
+
+    // COLORS
+    // STANDARD
+    --clr-border: #880000;
+    --clr-primary: #550000;
+    --clr-accent: #55aa7f;
+    --clr-accent-text-shadow: #333;
+    --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
+    // --image-filter: none;
+
+    // FEAST (GOLD AND WHITE)
+    // --clr-accent: #e9ca19;
+    // --clr-accent-text-shadow: #333;
+    // --clr-bg: linear-gradient(150deg, #ffd #fff, #ffc);
+    // --image-filter: saturate(150%) hue-rotate(220deg) invert(90%) drop-shadow(1px 1px var(--clr-accent-text-shadow));
+
+    // ADVENT
+    // Weeks 1, 2, 4
+    // --clr-border: #610088;
+    // --clr-primary: #550051;
+    // --clr-accent: #6f00ff;
+    // --clr-bg: linear-gradient(150deg, #f9effa, #fbf5fc, #f9effa);
+    // --image-filter: hue-rotate(285deg);
+    // Week 3
+    // --clr-border: #ff82e4;
+    // --clr-primary: #3f1635;
+    // --clr-accent: #ff82e4;
+    // --clr-bg: linear-gradient(150deg, #fdefff, #ffebfa, #fdefff);
+    // --image-filter: hue-rotate(325deg) brightness(500%);
+    // --clr-img-bg: var(--clr-bg);
+
+    // CHRISTMAS VIGIL
+    --clr-primary: #880000;
+    --clr-border: #e9ca19;
+    --clr-accent: #e9ca19;
+    --clr-accent-text-shadow: #220;
+    --clr-img-bg: linear-gradient(135deg, #222, #333, #222);
+    --clr-bg: linear-gradient(135deg, #fff, #eee, #fff);
+    --image-filter: none;
+
+    --fs-400: 1em;
+    --fs-500: 1.4em;
+    --fs-600: 2em;
+    --fs-700: 2.8em;
+
+    --ff-main: Arial, Helvetica, sans-serif;
+    --ff-title: Maitree, Georgia, 'Times New Roman', Times, serif;
+
+    --padding-bg: 3rem;
+    --title-image-height: 6rem;
+    --title-image-width: 24rem;
+
+    --conclusion-image-height: 5rem;
+    --conclusion-image-width: 20rem;
+
+    --spacer: 1rem;
+}
+
+// resets
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: clamp(0.5rem, 1.75vw, 2rem);
+    font-family: var(--ff-main);
+    color: var(--clr-primary);
+    background: rgba(0, 0, 0, 0);
+}
+
+.container {
+    min-height: 100%;
+    background: var(--clr-bg);
+}
+
+.vertically-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bordered {
+    position: relative;
+    padding: var(--padding-bg);
+
+    &::after {
+        position: absolute;
+        content: '';
+        top: calc(var(--padding-bg) / 2);
+        bottom: calc(var(--padding-bg) / 2);
+        left: calc(var(--padding-bg) / 2);
+        right: calc(var(--padding-bg) / 2);
+        border: solid 4px var(--clr-border);
+    }
+}
+
+.church-bg {
+    position: relative;
+    background-image: url(../images/sttheodoremain-2.jpg);
+    background-size: cover;
+    z-index: 0;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: var(--clr-bg);
+        opacity: 0.9;
+        z-index: -1;
+    }
+}
+
+.title-page {
+    text-align: center;
+
+    &__image {
+        filter: var(--image-filter);
+        margin-bottom: calc(var(--spacer) * 2);
+        width: 100%;
+
+        img {
+            width: clamp(14rem, 40%, 50rem);
+        }
+    }
+
+    &__title {
+        font-size: var(--fs-700);
+        color: var(--clr-accent);
+        text-shadow: 0.025em 0.025em var(--clr-accent-text-shadow);
+    }
+
+    &__date {
+        font-size: var(--fs-600);
+        font-style: italic;
+    }
+}
