@@ -50,13 +50,12 @@
     --ff-title: Maitree, Georgia, 'Times New Roman', Times, serif;
 
     --padding-bg: 3rem;
-    --title-image-height: 6rem;
-    --title-image-width: 24rem;
+    --spacer: 0.75em;
+}
 
-    --conclusion-image-height: 5rem;
-    --conclusion-image-width: 20rem;
-
-    --spacer: 1rem;
+@font-face {
+    font-family: 'Maitree';
+    src: url(../fonts/Maitree/Maitree-Regular.ttf);
 }
 
 // resets
@@ -75,10 +74,11 @@ body {
 }
 
 body {
-    font-size: clamp(0.5rem, 1.75vw, 2rem);
+    font-size: clamp(1rem, 1.75vw, 2rem);
     font-family: var(--ff-main);
     color: var(--clr-primary);
     background: rgba(0, 0, 0, 0);
+    line-height: 1.2;
 }
 
 .container {
@@ -127,6 +127,14 @@ body {
     }
 }
 
+p {
+    text-align: left;
+
+    &:not(:last-child) {
+        margin-bottom: var(--spacer);
+    }
+}
+
 .title-page {
     text-align: center;
 
@@ -149,5 +157,115 @@ body {
     &__date {
         font-size: var(--fs-600);
         font-style: italic;
+    }
+}
+
+ul[class] {
+    list-style: none;
+
+    li {
+        padding-inline-start: calc(var(--spacer) * 2);
+    }
+}
+
+.list-title {
+    font-weight: 700;
+    margin-bottom: calc(var(--spacer) / 2);
+    text-decoration: underline;
+}
+
+.verse {
+    color: var(--clr-accent);
+    text-shadow: 1px 1px var(--clr-accent-text-shadow);
+    text-transform: uppercase;
+}
+
+.heading {
+    position: relative;
+    display: inline-block;
+    font-size: var(--fs-600);
+    font-family: var(--ff-title);
+    font-weight: 600;
+    margin-top: -0.25em;
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0.125em;
+        width: 100%;
+        border-bottom: 0.07em solid var(--clr-primary);
+    }
+}
+
+.announcements {
+    --image-height: max(50%, 5rem);
+    height: 100%;
+
+    &__image {
+        &-spacer {
+            float: right;
+            width: 0;
+            height: calc(100% - var(--image-height));
+        }
+
+        &-image {
+            float: right;
+            clear: right;
+            margin-left: var(--spacer);
+            height: var(--image-height);
+
+            & img {
+                position: relative;
+                height: 100%;
+                mix-blend-mode: multiply;
+            }
+        }
+    }
+
+    &__content {
+        margin-top: calc(var(--spacer) / 2);
+        font-size: var(--fs-500);
+    }
+}
+
+.prayer {
+    position: relative;
+
+    p {
+        margin-top: var(--spacer);
+        white-space: pre-line;
+        line-height: 1.4;
+    }
+
+    & > *:not(:last-child) {
+        margin-bottom: var(--spacer);
+    }
+
+    &__voice {
+        &:before {
+            display: inline-block;
+            white-space: pre;
+            content: 'V: ';
+        }
+    }
+
+    &__priest {
+        &:before {
+            display: inline-block;
+            white-space: pre;
+            content: 'Priest: ';
+        }
+    }
+
+    &__response {
+        font-weight: 700;
+
+        &:not(.continue):before {
+            display: inline-block;
+            white-space: pre;
+            position: relative;
+            font-weight: 400;
+            content: 'R: ';
+        }
     }
 }
