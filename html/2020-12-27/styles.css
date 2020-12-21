@@ -44,6 +44,7 @@ body {
 }
 
 body {
+  font-size: 2rem;
   font-size: clamp(1rem, 1.75vw, 2rem);
   font-family: var(--ff-main);
   color: var(--clr-primary);
@@ -106,14 +107,6 @@ body {
   z-index: -1;
 }
 
-p {
-  text-align: left;
-}
-
-p:not(:last-child) {
-  margin-bottom: var(--spacer);
-}
-
 .title-page {
   text-align: center;
 }
@@ -126,6 +119,7 @@ p:not(:last-child) {
 }
 
 .title-page__image img {
+  width: 50rem;
   width: clamp(14rem, 40%, 50rem);
 }
 
@@ -138,6 +132,15 @@ p:not(:last-child) {
 .title-page__date {
   font-size: var(--fs-600);
   font-style: italic;
+}
+
+.full-screen-prayer {
+  font-size: var(--fs-600);
+}
+
+.full-screen-prayer p {
+  white-space: pre-line;
+  line-height: 1.4;
 }
 
 ul[class] {
@@ -179,7 +182,7 @@ ul[class] li {
 }
 
 .announcements {
-  --image-height: max(50%, 5rem);
+  --image-height: 50%;
   height: 100%;
 }
 
@@ -205,6 +208,14 @@ ul[class] li {
 .announcements__content {
   margin-top: calc(var(--spacer) / 2);
   font-size: var(--fs-500);
+}
+
+.announcements p {
+  text-align: left;
+}
+
+.announcements p:not(:last-child) {
+  margin-bottom: var(--spacer);
 }
 
 .prayer {
@@ -243,5 +254,39 @@ ul[class] li {
   position: relative;
   font-weight: 400;
   content: 'R: ';
+}
+
+.dark-filter {
+  position: relative;
+  color: var(--clr-normal-100);
+  z-index: 0;
+}
+
+.dark-filter::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.video {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.video::before {
+  content: '';
+  position: absolute;
+  background-image: url(../images/sttheodores_header.png);
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  height: 4.5rem;
+  width: 18rem;
+  -webkit-filter: var(--image-filter);
+          filter: var(--image-filter);
 }
 /*# sourceMappingURL=styles.css.map */
