@@ -5,7 +5,8 @@
   --clr-primary: #550000;
   --clr-accent: #55aa7f;
   --clr-accent-text-shadow: #333;
-  --clr-bg: linear-gradient(150deg, #fffadf, #fff4c4);
+  --clr-bg: linear-gradient(135deg, #fffadf, #fff4c4);
+  --image-filter: none;
   --clr-primary: #880000;
   --clr-border: #e9ca19;
   --clr-accent: #e9ca19;
@@ -15,12 +16,14 @@
   --image-filter: none;
   --fs-400: 1em;
   --fs-500: 1.4em;
-  --fs-600: 2em;
-  --fs-700: 2.8em;
+  --fs-600: 1.6em;
+  --fs-700: 2.4em;
   --ff-main: Arial, Helvetica, sans-serif;
   --ff-title: Maitree, Georgia, 'Times New Roman', Times, serif;
   --padding-bg: 3rem;
   --spacer: 0.75em;
+  --min-logo-title-width: 14rem;
+  --max-logo-title-width: 50rem;
 }
 
 @font-face {
@@ -35,6 +38,14 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
 }
 
 html,
@@ -44,12 +55,12 @@ body {
 }
 
 body {
-  font-size: 2rem;
-  font-size: clamp(1rem, 1.75vw, 2rem);
+  font-size: 2.5rem;
+  font-size: clamp(1rem, 1.75vw, 2.5rem);
   font-family: var(--ff-main);
   color: var(--clr-primary);
   background: rgba(0, 0, 0, 0);
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .container {
@@ -119,14 +130,15 @@ body {
 }
 
 .title-page__image img {
-  width: 50rem;
-  width: clamp(14rem, 40%, 50rem);
+  width: var(--max-logo-title-width);
+  width: clamp(var(--min-logo-title-width), 40%, var(--max-logo-title-width));
 }
 
 .title-page__title {
   font-size: var(--fs-700);
   color: var(--clr-accent);
   text-shadow: 0.025em 0.025em var(--clr-accent-text-shadow);
+  line-height: 1.2;
 }
 
 .title-page__date {
@@ -134,13 +146,18 @@ body {
   font-style: italic;
 }
 
-.full-screen-prayer {
-  font-size: var(--fs-600);
+.conclusion {
+  font-size: var(--fs-700);
 }
 
-.full-screen-prayer p {
-  white-space: pre-line;
-  line-height: 1.4;
+.conclusion__image {
+  -webkit-filter: var(--image-filter);
+          filter: var(--image-filter);
+}
+
+.conclusion__image img {
+  width: var(--max-logo-title-width);
+  width: clamp(var(--min-logo-title-width), 40%, var(--max-logo-title-width));
 }
 
 ul[class] {
@@ -153,15 +170,23 @@ ul[class] li {
 }
 
 .list-title {
-  font-weight: 700;
-  margin-bottom: calc(var(--spacer) / 2);
-  text-decoration: underline;
+  position: relative;
+  display: inline-block;
+}
+
+.list-title::before {
+  content: '';
+  position: absolute;
+  bottom: 0.25em;
+  width: 100%;
+  border-bottom: 0.07em solid var(--clr-primary);
 }
 
 .verse {
   color: var(--clr-accent);
   text-shadow: 1px 1px var(--clr-accent-text-shadow);
   text-transform: uppercase;
+  margin-bottom: var(--spacer);
 }
 
 .heading {
@@ -170,13 +195,14 @@ ul[class] li {
   font-size: var(--fs-600);
   font-family: var(--ff-title);
   font-weight: 600;
-  margin-top: -0.25em;
+  letter-spacing: 0.025em;
+  margin-top: -0.2em;
 }
 
 .heading::before {
   content: '';
   position: absolute;
-  bottom: 0.125em;
+  bottom: 0.25em;
   width: 100%;
   border-bottom: 0.07em solid var(--clr-primary);
 }
@@ -219,26 +245,25 @@ ul[class] li {
 }
 
 .prayer {
+  font-size: var(--fs-400);
   position: relative;
 }
 
 .prayer p {
-  margin-top: var(--spacer);
   white-space: pre-line;
-  line-height: 1.4;
 }
 
 .prayer > *:not(:last-child) {
   margin-bottom: var(--spacer);
 }
 
-.prayer__voice:before {
+.prayer__voice:not(.continue):before {
   display: inline-block;
   white-space: pre;
   content: 'V: ';
 }
 
-.prayer__priest:before {
+.prayer__priest:not(.continue):before {
   display: inline-block;
   white-space: pre;
   content: 'Priest: ';
@@ -254,6 +279,14 @@ ul[class] li {
   position: relative;
   font-weight: 400;
   content: 'R: ';
+}
+
+.full-screen-prayer {
+  font-size: var(--fs-600);
+}
+
+.full-screen-prayer p {
+  white-space: pre-line;
 }
 
 .dark-filter {
@@ -284,8 +317,8 @@ ul[class] li {
   background-size: cover;
   bottom: 0;
   left: 0;
-  height: 4.5rem;
-  width: 18rem;
+  height: 4rem;
+  width: 16rem;
   -webkit-filter: var(--image-filter);
           filter: var(--image-filter);
 }
