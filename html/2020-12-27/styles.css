@@ -177,7 +177,7 @@ ul[class] li {
 .list-title::before {
   content: '';
   position: absolute;
-  bottom: 0.25em;
+  bottom: 0.2em;
   width: 100%;
   border-bottom: 0.07em solid var(--clr-primary);
 }
@@ -186,7 +186,10 @@ ul[class] li {
   color: var(--clr-accent);
   text-shadow: 1px 1px var(--clr-accent-text-shadow);
   text-transform: uppercase;
-  margin-bottom: var(--spacer);
+}
+
+.header {
+  margin-bottom: calc(var(--spacer) / 2);
 }
 
 .heading {
@@ -304,6 +307,7 @@ ul[class] li {
   position: relative;
   color: var(--clr-normal-100);
   z-index: 0;
+  background: unset;
 }
 
 .dark-filter::before {
