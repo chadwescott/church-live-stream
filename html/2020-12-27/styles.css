@@ -15,7 +15,7 @@
   --clr-bg: linear-gradient(135deg, #fff, #eee, #fff);
   --image-filter: none;
   --fs-400: 1em;
-  --fs-500: 1.4em;
+  --fs-500: 1.3em;
   --fs-600: 1.6em;
   --fs-700: 2.4em;
   --ff-main: Arial, Helvetica, sans-serif;
@@ -246,6 +246,8 @@ ul[class] li {
 
 .announcements p::before {
   content: '\2020';
+  color: var(--clr-accent);
+  text-shadow: 0.025em 0.025em var(--clr-accent-text-shadow);
   margin-right: var(--spacer);
 }
 
@@ -260,6 +262,10 @@ ul[class] li {
 
 .prayer > *:not(:last-child) {
   margin-bottom: var(--spacer);
+}
+
+.prayer > *:last-child {
+  margin-bottom: calc(var(--spacer) * -1);
 }
 
 .prayer__voice:not(.continue):before {
