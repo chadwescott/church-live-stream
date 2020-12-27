@@ -16,6 +16,7 @@
   --fs-600: 2.8rem;
   --ff-main: Arial, Helvetica, sans-serif;
   --ff-title: Maitree, Georgia, 'Times New Roman', Times, serif;
+  --ff-conclusion: 'Monotype Corsiva Italic', Georgia, 'Times New Roman', Times, serif;
   --padding-bg: 3.675rem;
   --title-image-height: 6rem;
   --title-image-width: 24rem;
@@ -56,8 +57,6 @@
     --fs-400: 4rem;
     --fs-500: 5rem;
     --fs-600: 6rem;
-    --conclusion-image-height: 12rem;
-    --conclusion-image-width: 48rem;
   }
 }
 
@@ -85,6 +84,8 @@ body {
 @font-face {
   font-family: 'Maitree';
   src: url(../fonts/Maitree/Maitree-Regular.ttf);
+  font-family: 'Monotype Corsiva Italic';
+  src: url(../fonts/MTCORSVA.ttf);
 }
 
 .bordered-background, .container.church-bg,
@@ -184,12 +185,19 @@ p:not(:last-child) {
   font-size: var(--fs-600);
   color: var(--clr-accent);
   text-shadow: 2px 2px var(--clr-accent-text-shadow);
+  font-family: var(--ff-conclusion);
+}
+
+.conclusion p {
+  font-size: var(--fs-400);
+  white-space: pre-line;
+  margin-bottom: var(--spacer);
 }
 
 .conclusion__image {
+  position: relative;
   -webkit-filter: var(--image-filter);
           filter: var(--image-filter);
-  margin-bottom: 3rem;
 }
 
 .conclusion__image img {
@@ -198,11 +206,11 @@ p:not(:last-child) {
 }
 
 .conclusion__footer {
-  margin-top: calc(var(--spacer) * 2);
+  margin: calc(var(--spacer) * 2) 0;
 }
 
 .conclusion__footer img {
-  width: 30%;
+  width: 50%;
 }
 
 .title-page {

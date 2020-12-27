@@ -257,6 +257,12 @@ ul[class] {
         &:not(:last-child) {
             margin-bottom: var(--spacer);
         }
+
+        &::before {
+            // content: &8224;
+            content: '\2020';
+            margin-right: var(--spacer);
+        }
     }
 }
 

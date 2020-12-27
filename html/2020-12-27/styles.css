@@ -244,6 +244,11 @@ ul[class] li {
   margin-bottom: var(--spacer);
 }
 
+.announcements p::before {
+  content: '\2020';
+  margin-right: var(--spacer);
+}
+
 .prayer {
   font-size: var(--fs-400);
   position: relative;
