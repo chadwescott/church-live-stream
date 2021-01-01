@@ -393,3 +393,9 @@ ul[class] {
         filter: var(--image-filter);
     }
 }
+
+.image-circle {
+    img {
+        border-radius: 50%;
+    }
+}

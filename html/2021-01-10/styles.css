@@ -353,4 +353,8 @@ ul[class] li {
   -webkit-filter: var(--image-filter);
           filter: var(--image-filter);
 }
+
+.image-circle img {
+  border-radius: 50%;
+}
 /*# sourceMappingURL=styles.css.map */
