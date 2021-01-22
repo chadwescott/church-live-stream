@@ -150,6 +150,16 @@ body {
   mix-blend-mode: multiply;
 }
 
+.title-page__quote {
+  margin-top: calc(var(--spacer) * 2);
+  color: var(--clr-accent);
+  font-style: italic;
+}
+
+.title-page__verse {
+  font-weight: 600;
+}
+
 .conclusion {
   font-size: var(--fs-700);
   color: var(--clr-accent);
@@ -221,16 +231,52 @@ ul[class] li {
 }
 
 .float-spacer {
-  float: right;
   width: 0;
   height: calc(100% - var(--image-height));
 }
 
-.float-image {
+.float-spacer-right {
   float: right;
-  clear: right;
-  margin-left: var(--spacer);
+}
+
+.float-spacer-left {
+  float: left;
+}
+
+.float-spacer-center {
+  float: right;
+  position: relative;
+  left: -50%;
+}
+
+.float-image {
+  float: var(--float-dir);
+  clear: var(--float-dir);
+  margin-left: var(--margin-left);
+  margin-right: var(--margin-right);
   height: var(--image-height);
+}
+
+.float-image-right {
+  --float-dir: right;
+  --margin-left: var(--spacer);
+  --margin-right: 0;
+}
+
+.float-image-left {
+  --float-dir: left;
+  --margin-left: 0;
+  --margin-right: var(--spacer);
+}
+
+.float-image-center {
+  --float-dir: right;
+  position: relative;
+  right: 50%;
+  -webkit-transform: translate(50%);
+          transform: translate(50%);
+  --margin-left: var(--spacer);
+  --margin-right: var(--spacer);
 }
 
 .float-image img {
@@ -241,18 +287,38 @@ ul[class] li {
 
 .announcements {
   height: 100%;
-  --image-height: 90%;
+}
+
+.announcements-1 {
+  --image-height: 40%;
+}
+
+.announcements-2 {
+  --image-height: 40%;
+}
+
+.announcements-3 {
+  --image-height: 30%;
+}
+
+.announcements-4 {
+  --image-height: 55%;
+}
+
+.announcements-5 {
+  --image-height: 100%;
 }
 
 .announcements__content {
   margin-top: calc(var(--spacer) / 2);
   font-size: var(--fs-500);
+  height: calc(100% - var(--spacer) * 2);
 }
 
 .announcements p {
   text-align: left;
   position: relative;
-  margin-left: calc(2 * var(--spacer));
+  margin-left: calc(var(--spacer) * 2);
 }
 
 .announcements p:not(:last-child) {
