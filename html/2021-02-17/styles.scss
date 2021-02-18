@@ -204,11 +204,11 @@ a {
         color: var(--clr-primary-text);
         font-style: italic;
 
-        &::before {
+        p:first-child::before {
             content: open-quote;
         }
 
-        &::after {
+        p:last-child::after {
             content: close-quote;
         }
     }

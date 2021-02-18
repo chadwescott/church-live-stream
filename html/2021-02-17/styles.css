@@ -179,11 +179,11 @@ a {
   font-style: italic;
 }
 
-.title-page__quote::before {
+.title-page__quote p:first-child::before {
   content: open-quote;
 }
 
-.title-page__quote::after {
+.title-page__quote p:last-child::after {
   content: close-quote;
 }
 

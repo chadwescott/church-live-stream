@@ -235,8 +235,8 @@ ul[class] {
     color: var(--clr-lt);
 
     &__heading {
-        display: inline-block;
         position: relative;
+        display: inline-block;
         &::before {
             content: '';
             position: absolute;
