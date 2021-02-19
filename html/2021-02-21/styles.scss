@@ -387,6 +387,12 @@ ul[class] {
             }
         }
     }
+
+    &--emphasis {
+        font-family: var(--ff-accent);
+        font-weight: 600;
+        font-style: italic;
+    }
 }
 
 .prayer {

@@ -210,8 +210,8 @@ ul[class] li {
 }
 
 .list-title__heading {
-  position: relative;
   display: inline-block;
+  position: relative;
 }
 
 .list-title__heading::before {
@@ -363,6 +363,12 @@ ul[class] li {
   text-shadow: 0.025em 0.025em var(--clr-accent-text-shadow);
   top: -0.075em;
   left: calc(-2 * var(--spacer));
+}
+
+.announcements--emphasis {
+  font-family: var(--ff-accent);
+  font-weight: 600;
+  font-style: italic;
 }
 
 .prayer {

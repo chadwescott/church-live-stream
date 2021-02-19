@@ -365,6 +365,12 @@ ul[class] li {
   left: calc(-2 * var(--spacer));
 }
 
+.announcements--emphasis {
+  font-family: var(--ff-accent);
+  font-weight: 600;
+  font-style: italic;
+}
+
 .prayer {
   font-size: var(--fs-400);
   font-family: var(--ff-accent);

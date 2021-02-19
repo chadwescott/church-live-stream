@@ -235,8 +235,8 @@ ul[class] {
     color: var(--clr-lt);
 
     &__heading {
-        position: relative;
         display: inline-block;
+        position: relative;
         &::before {
             content: '';
             position: absolute;
@@ -386,6 +386,12 @@ ul[class] {
                 left: calc(-2 * var(--spacer));
             }
         }
+    }
+
+    &--emphasis {
+        font-family: var(--ff-accent);
+        font-weight: 600;
+        font-style: italic;
     }
 }
 
