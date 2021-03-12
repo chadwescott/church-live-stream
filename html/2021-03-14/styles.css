@@ -18,7 +18,7 @@
   --clr-accent: #550086;
   --clr-accent-text: #white;
   --clr-accent-text-shadow: #ccc;
-  --clr-bg: linear-gradient(135deg, #fff0ff, #fffdff, #fff0ff);
+  --clr-bg: linear-gradient(135deg, #ffe0ff, #fffdff, #ffe0ff);
   --image-filter: hue-rotate(300deg);
   --fs-300: 1em;
   --fs-400: 1.2em;
@@ -159,13 +159,16 @@ a {
   width: var(--max-logo-title-width);
 }
 
-.title-page__title {
+.title-page__conclusion, .title-page__title {
   font-size: var(--fs-800);
   color: var(--clr-accent);
   text-shadow: 0.025em 0.025em var(--clr-accent-text-shadow);
   line-height: 1.2;
-  text-decoration: underline;
   margin-bottom: var(--padding-small);
+}
+
+.title-page__title {
+  text-decoration: underline;
 }
 
 .title-page__date {
@@ -232,7 +235,6 @@ ul[class] li {
   bottom: 0.2em;
   width: 100%;
   border-bottom: 0.07em solid var(--clr-lt);
-  color: red;
 }
 
 .list-title .verse {
@@ -372,6 +374,8 @@ ul[class] li {
 
 .announcements__content > p::before {
   content: '\2020';
+  font-family: var(--ff-primary);
+  font-weight: 700;
   position: absolute;
   color: var(--clr-bullet);
   text-shadow: 0.025em 0.025em var(--clr-accent-text-shadow);

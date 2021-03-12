@@ -51,7 +51,7 @@
     --clr-accent: #550086;
     --clr-accent-text: #white;
     --clr-accent-text-shadow: #ccc;
-    --clr-bg: linear-gradient(135deg, #fff0ff, #fffdff, #fff0ff);
+    --clr-bg: linear-gradient(135deg, #ffe0ff, #fffdff, #ffe0ff);
     --image-filter: hue-rotate(300deg);
 
     // FONT SIZES
@@ -185,13 +185,17 @@ a {
         }
     }
 
+    &__conclusion,
     &__title {
         font-size: var(--fs-800);
         color: var(--clr-accent);
         text-shadow: 0.025em 0.025em var(--clr-accent-text-shadow);
         line-height: 1.2;
-        text-decoration: underline;
         margin-bottom: var(--padding-small);
+    }
+
+    &__title {
+        text-decoration: underline;
     }
 
     &__date {
@@ -250,13 +254,13 @@ ul[class] {
     &__heading {
         display: inline-block;
         position: relative;
+
         &::before {
             content: '';
             position: absolute;
             bottom: 0.2em;
             width: 100%;
             border-bottom: 0.07em solid var(--clr-lt);
-            color: red;
         }
     }
 
@@ -394,6 +398,8 @@ ul[class] {
 
             &::before {
                 content: '\2020';
+                font-family: var(--ff-primary);
+                font-weight: 700;
                 position: absolute;
                 color: var(--clr-bullet);
                 text-shadow: 0.025em 0.025em var(--clr-accent-text-shadow);
