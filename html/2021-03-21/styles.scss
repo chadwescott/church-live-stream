@@ -217,6 +217,7 @@ a {
 
     &__quote {
         position: relative;
+        width: 80%;
         margin-top: calc(var(--spacer) * 2);
         color: var(--clr-primary-text);
         font-style: italic;
