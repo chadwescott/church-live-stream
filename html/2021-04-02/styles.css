@@ -23,6 +23,7 @@
   --padding-bg: 3rem;
   --spacer: 1.5rem;
   --padding-small: 0.75rem;
+  --inline-indent: 1em;
   --min-logo-title-width: 8em;
   --max-logo-title-width: 18em;
 }
@@ -410,6 +411,12 @@ ul[class] li {
   display: inline-block;
   white-space: pre;
   content: 'V: ';
+}
+
+.prayer--verse {
+  font-style: italic;
+  display: inline-block;
+  margin-left: var(--inline-indent);
 }
 
 .prayer__priest:not(.continue):before {
