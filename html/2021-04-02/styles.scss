@@ -5,21 +5,24 @@
 
     // COLORS
     // STANDARD
-    --clr-border: #901010;
-    --clr-primary: #5c1c0c;
-    --clr-primary-text-shadow: #333;
-    --clr-accent: #901010;
-    --clr-accent-text-shadow: #333;
-    --clr-bg: linear-gradient(135deg, #fffedf, #fffdf1, #fffedf);
+    // --clr-border: #901010;
+    // --clr-primary: #5c1c0c;
+    // --clr-primary-text-shadow: #333;
+    // --clr-accent: #901010;
+    // --clr-accent-text-shadow: #333;
+    // --clr-bg: linear-gradient(135deg, #fffedf, #fffdf1, #fffedf);
     --clr-bullet: #884d00;
-    --clr-hyperlink: #55aa7f;
-    --image-filter: none;
+    // --clr-hyperlink: #55aa7f;
+    // --image-filter: none;
 
     // FEAST (GOLD AND WHITE)
+    // --clr-border: #e9ca19;
+    // --clr-primary: #cf7c00;
+    // --clr-primary-text-shadow: #ccc;
     // --clr-accent: #e9ca19;
     // --clr-accent-text-shadow: #333;
     // --clr-bg: linear-gradient(135deg, #ffd, #fff, #ffc);
-    // --image-filter: saturate(150%) hue-rotate(220deg) invert(90%) drop-shadow(1px 1px var(--clr-accent-text-shadow));
+    // --image-filter: saturate(180%) hue-rotate(230deg) invert(95%) drop-shadow(1px 1px var(--clr-accent-text-shadow));
 
     // ADVENT
     // Weeks 1, 2, 4
@@ -43,10 +46,9 @@
     // --clr-bg: linear-gradient(135deg, #fff, #eee, #fff);
     // --image-filter: none;
 
-    // Purple
+    // PURPLE
     // --clr-border: #690069;
     // --clr-primary: #690069;
-    // --clr-primary-text: #333;
     // --clr-primary-text-shadow: #ccc;
     // --clr-accent: #550086;
     // --clr-accent-text: #white;
@@ -57,13 +59,11 @@
     // RED
     --clr-border: #dd0000;
     --clr-primary: #dd0000;
-    --clr-primary-text: #333;
     --clr-primary-text-shadow: #ccc;
     --clr-accent: #c40000;
     --clr-accent-text: #white;
     --clr-accent-text-shadow: #ccc;
     --clr-bg: linear-gradient(135deg, #fcd0d0, #ffeeee, #fcd0d0);
-    // --image-filter: hue-rotate(300deg);
 
     // FONT SIZES
     --fs-300: 1em;
@@ -126,7 +126,7 @@ body {
     font-size: 2.5rem;
     font-size: clamp(1rem, 1.75vw, 2.5rem);
     font-family: var(--ff-primary);
-    color: var(--clr-primary-text);
+    color: var(--clr-normal-300);
     line-height: 1.4;
 }
 
@@ -209,6 +209,15 @@ a {
         text-decoration: underline;
     }
 
+    &__subtitle {
+        font-size: var(--fs-700);
+        color: var(--clr-accent);
+        text-decoration: underline;
+        text-shadow: 0.025em 0.025em var(--clr-accent-text-shadow);
+        line-height: 1.2;
+        margin-bottom: var(--padding-small);
+    }
+
     &__date {
         font-size: var(--fs-700);
         font-style: italic;
@@ -230,7 +239,6 @@ a {
         position: relative;
         width: 80%;
         margin-top: calc(var(--spacer) * 2);
-        color: var(--clr-primary-text);
         font-style: italic;
 
         p:first-child::before {
