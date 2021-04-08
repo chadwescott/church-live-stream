@@ -1,7 +1,7 @@
 {
     "current_program_scene": "Title",
     "current_scene": "Title",
-    "current_transition": "Luma Wipe",
+    "current_transition": "Fade",
     "groups": [
         {
             "balance": 0.5,
@@ -12,8 +12,10 @@
             "hotkeys": {
                 "libobs.hide_scene_item.Logitech C930e Audio": [],
                 "libobs.hide_scene_item.Omni Microphone": [],
+                "libobs.hide_scene_item.iOS Camera": [],
                 "libobs.show_scene_item.Logitech C930e Audio": [],
-                "libobs.show_scene_item.Omni Microphone": []
+                "libobs.show_scene_item.Omni Microphone": [],
+                "libobs.show_scene_item.iOS Camera": []
             },
             "id": "group",
             "mixers": 0,
@@ -32,6 +34,35 @@
                 "cy": 0,
                 "id_counter": 0,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -105,14 +136,16 @@
             "hotkeys": {
                 "libobs.hide_scene_item.Logitech C930e Video": [],
                 "libobs.hide_scene_item.Video Web": [],
+                "libobs.hide_scene_item.iOS Camera": [],
                 "libobs.show_scene_item.Logitech C930e Video": [],
-                "libobs.show_scene_item.Video Web": []
+                "libobs.show_scene_item.Video Web": [],
+                "libobs.show_scene_item.iOS Camera": []
             },
             "id": "group",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Video",
+            "name": "Video 1",
             "prev_ver": 436273153,
             "private_settings": {},
             "push-to-mute": false,
@@ -125,6 +158,159 @@
                 "cy": 1080,
                 "id_counter": 0,
                 "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 26,
+                        "locked": false,
+                        "name": "Logitech C930e Video",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 19,
+                        "locked": false,
+                        "name": "Video Web",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "group",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.hide_scene_item.Logitech C930e Video": [],
+                "libobs.hide_scene_item.Video Web": [],
+                "libobs.hide_scene_item.iOS Camera": [],
+                "libobs.show_scene_item.Logitech C930e Video": [],
+                "libobs.show_scene_item.Video Web": [],
+                "libobs.show_scene_item.iOS Camera": []
+            },
+            "id": "group",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Video 2",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": true,
+                "cx": 1920,
+                "cy": 1080,
+                "id_counter": 3,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -167,7 +353,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 19,
+                        "id": 3,
                         "locked": false,
                         "name": "Video Web",
                         "pos": {
@@ -240,7 +426,12 @@
         {
             "duration": 400,
             "fade_to_black": true,
-            "hotkeys": [],
+            "hotkeys": [
+                {
+                    "control": true,
+                    "key": "OBS_KEY_B"
+                }
+            ],
             "id": 9,
             "name": "Fade"
         },
@@ -268,7 +459,10 @@
             "name": "Announcements 2"
         },
         {
-            "name": "Video and Audio"
+            "name": "Camera 1"
+        },
+        {
+            "name": "Camera 2"
         },
         {
             "name": "Confiteor"
@@ -428,10 +622,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Absolution Web": [],
                 "libobs.hide_scene_item.Audio": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Absolution Web": [],
                 "libobs.show_scene_item.Audio": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -448,6 +642,35 @@
                 "custom_size": false,
                 "id_counter": 4,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -548,7 +771,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -569,6 +792,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -608,7 +860,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -702,10 +954,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Mystery of Faith 3 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Mystery of Faith 3 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -722,6 +974,35 @@
                 "custom_size": false,
                 "id_counter": 4,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -822,7 +1103,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -843,6 +1124,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -882,7 +1192,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -976,10 +1286,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Mystery of Faith 2 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Mystery of Faith 2 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -996,6 +1306,35 @@
                 "custom_size": false,
                 "id_counter": 4,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -1096,7 +1435,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -1117,6 +1456,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -1156,7 +1524,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1250,10 +1618,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Gospel 4 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Gospel 4 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -1270,6 +1638,35 @@
                 "custom_size": false,
                 "id_counter": 4,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -1370,7 +1767,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -1391,6 +1788,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -1430,7 +1856,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1524,10 +1950,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Gospel 3 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Gospel 3 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -1544,6 +1970,35 @@
                 "custom_size": false,
                 "id_counter": 4,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -1644,7 +2099,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -1665,6 +2120,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -1704,7 +2188,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1798,10 +2282,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Reading 2.2 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Reading 2.2 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -1818,6 +2302,35 @@
                 "custom_size": false,
                 "id_counter": 4,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -1918,7 +2431,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -1939,6 +2452,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -1978,7 +2520,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -2212,10 +2754,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Eucharistic Prayer Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Eucharistic Prayer Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -2232,6 +2774,35 @@
                 "custom_size": false,
                 "id_counter": 4,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -2332,7 +2903,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -2353,6 +2924,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -2392,7 +2992,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -3151,10 +3751,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Offertory 2 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Offertory 2 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -3171,6 +3771,35 @@
                 "custom_size": false,
                 "id_counter": 9,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -3271,7 +3900,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -3292,6 +3921,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -3331,7 +3989,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -3390,10 +4048,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Invitation to Communion Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Invitation to Communion Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -3410,6 +4068,35 @@
                 "custom_size": false,
                 "id_counter": 9,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -3510,7 +4197,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -3531,6 +4218,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -3570,7 +4286,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -3629,10 +4345,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Our Father Web 1": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Our Father Web 1": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -3649,6 +4365,35 @@
                 "custom_size": false,
                 "id_counter": 9,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -3749,7 +4494,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -3770,6 +4515,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -3809,7 +4583,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -3868,10 +4642,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Confiteor Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Confiteor Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -3888,6 +4662,35 @@
                 "custom_size": false,
                 "id_counter": 9,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -3988,7 +4791,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -4009,6 +4812,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -4047,8 +4879,8 @@
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 2,
-                        "locked": true,
-                        "name": "Video",
+                        "locked": false,
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -4106,7 +4938,9 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Announcements 2 Web": [],
-                "libobs.show_scene_item.Announcements 2 Web": []
+                "libobs.hide_scene_item.Audio": [],
+                "libobs.show_scene_item.Announcements 2 Web": [],
+                "libobs.show_scene_item.Audio": []
             },
             "id": "scene",
             "mixers": 0,
@@ -4123,8 +4957,124 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 7,
+                "id_counter": 8,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 15,
+                        "locked": false,
+                        "name": "Omni Microphone",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Logitech C930e Audio",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Audio",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -4170,10 +5120,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Nicene Creed Web 3": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Nicene Creed Web 3": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -4190,6 +5140,35 @@
                 "custom_size": false,
                 "id_counter": 9,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -4290,7 +5269,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -4311,6 +5290,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -4350,7 +5358,7 @@
                         "group_item_backup": false,
                         "id": 8,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -4409,10 +5417,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Nicene Creed Web 2": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Nicene Creed Web 2": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -4429,6 +5437,35 @@
                 "custom_size": false,
                 "id_counter": 10,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -4529,7 +5566,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -4550,6 +5587,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -4589,7 +5655,7 @@
                         "group_item_backup": false,
                         "id": 9,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -4648,10 +5714,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Nicene Creed Web 1": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Nicene Creed Web 1": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -4668,6 +5734,35 @@
                 "custom_size": false,
                 "id_counter": 11,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -4768,7 +5863,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -4789,6 +5884,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -4828,7 +5952,7 @@
                         "group_item_backup": false,
                         "id": 10,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -4887,10 +6011,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Gloria Web 2": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Gloria Web 2": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -4907,6 +6031,35 @@
                 "custom_size": false,
                 "id_counter": 10,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -5007,7 +6160,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -5028,6 +6181,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -5067,7 +6249,7 @@
                         "group_item_backup": false,
                         "id": 8,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -5128,10 +6310,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Gloria Web 1": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Gloria Web 1": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -5148,6 +6330,35 @@
                 "custom_size": false,
                 "id_counter": 11,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -5248,7 +6459,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -5269,6 +6480,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -5308,7 +6548,7 @@
                         "group_item_backup": false,
                         "id": 10,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -5367,10 +6607,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Reading 1.1 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Reading 1.1 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -5387,6 +6627,35 @@
                 "custom_size": false,
                 "id_counter": 15,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -5487,7 +6756,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -5508,6 +6777,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -5547,7 +6845,7 @@
                         "group_item_backup": false,
                         "id": 11,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -5603,46 +6901,6 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "dshow_input",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Logitech C930e Video",
-            "prev_ver": 436273153,
-            "private_settings": {
-                "mixer_hidden": true
-            },
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "active": true,
-                "audio_device_id": "Microphone (Logitech Webcam C930e):",
-                "audio_output_mode": 0,
-                "last_resolution": "1920x1080",
-                "last_video_device_id": "Logitech Webcam C930e:\\\\?\\usb#22vid_046d&pid_0843&mi_00#226&1005a9b3&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "res_type": 1,
-                "resolution": "1920x1080",
-                "use_custom_audio_device": false,
-                "video_device_id": "Logitech Webcam C930e:\\\\?\\usb#22vid_046d&pid_0843&mi_00#226&1005a9b3&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
-            },
-            "sync": 0,
-            "versioned_id": "dshow_input",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
                 "OBSBasic.SelectScene": [
                     {
                         "control": true,
@@ -5650,15 +6908,15 @@
                     }
                 ],
                 "libobs.hide_scene_item.Audio": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Video and Audio",
+            "name": "Camera 1",
             "prev_ver": 436273153,
             "private_settings": {
                 "transition": "Fade"
@@ -5669,8 +6927,37 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 20,
+                "id_counter": 26,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -5771,7 +7058,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -5792,6 +7079,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -5831,7 +7147,7 @@
                         "group_item_backup": false,
                         "id": 15,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -5879,8 +7195,37 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 21,
+                "id_counter": 22,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -6013,10 +7358,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Act of Spiritual Communion Web": [],
                 "libobs.hide_scene_item.Audio": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Act of Spiritual Communion Web": [],
                 "libobs.show_scene_item.Audio": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -6035,6 +7380,35 @@
                 "custom_size": false,
                 "id_counter": 30,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -6135,7 +7509,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -6156,6 +7530,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -6195,7 +7598,7 @@
                         "group_item_backup": false,
                         "id": 19,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -6256,10 +7659,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Responsorial Psalm 1.1 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Responsorial Psalm 1.1 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -6267,7 +7670,9 @@
             "muted": false,
             "name": "Responsorial Psalm 1.1",
             "prev_ver": 436273153,
-            "private_settings": {},
+            "private_settings": {
+                "transition": ""
+            },
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -6276,6 +7681,35 @@
                 "custom_size": false,
                 "id_counter": 34,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -6376,7 +7810,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -6397,6 +7831,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -6436,7 +7899,7 @@
                         "group_item_backup": false,
                         "id": 26,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -6509,7 +7972,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "device_id": "{0.0.1.00000000}.{021626e6-5a48-4a8a-bf0a-cf44d5297eca}"
+                "device_id": "{0.0.1.00000000}.{cb8549aa-9c34-4d4f-84c9-b5d24639e288}"
             },
             "sync": 0,
             "versioned_id": "wasapi_input_capture",
@@ -6545,6 +8008,35 @@
                 "custom_size": false,
                 "id_counter": 8,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -6676,7 +8168,9 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Announcements 1 Web": [],
-                "libobs.show_scene_item.Announcements 1 Web": []
+                "libobs.hide_scene_item.Audio": [],
+                "libobs.show_scene_item.Announcements 1 Web": [],
+                "libobs.show_scene_item.Audio": []
             },
             "id": "scene",
             "mixers": 0,
@@ -6693,8 +8187,124 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 13,
+                "id_counter": 14,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 15,
+                        "locked": false,
+                        "name": "Omni Microphone",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Logitech C930e Audio",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 14,
+                        "locked": false,
+                        "name": "Audio",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -6740,10 +8350,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Responsorial Psalm 1.2 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Responsorial Psalm 1.2 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -6760,6 +8370,35 @@
                 "custom_size": false,
                 "id_counter": 24,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -6860,7 +8499,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -6881,6 +8520,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -6920,7 +8588,7 @@
                         "group_item_backup": false,
                         "id": 16,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -6979,10 +8647,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Reading 2.1 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Reading 2.1 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -6999,6 +8667,35 @@
                 "custom_size": false,
                 "id_counter": 22,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -7101,7 +8798,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -7122,6 +8819,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -7161,7 +8887,7 @@
                         "group_item_backup": false,
                         "id": 17,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -7222,10 +8948,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Gospel Acclamation 1 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Gospel Acclamation 1 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -7242,6 +8968,35 @@
                 "custom_size": false,
                 "id_counter": 26,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -7342,7 +9097,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -7363,6 +9118,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -7402,7 +9186,7 @@
                         "group_item_backup": false,
                         "id": 20,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -7461,10 +9245,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Gospel 1 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Gospel 1 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -7481,6 +9265,35 @@
                 "custom_size": false,
                 "id_counter": 20,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -7581,7 +9394,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -7602,6 +9415,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -7641,7 +9483,7 @@
                         "group_item_backup": false,
                         "id": 19,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -7700,10 +9542,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Gospel 2 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Gospel 2 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -7720,6 +9562,35 @@
                 "custom_size": false,
                 "id_counter": 21,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -7820,7 +9691,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -7841,6 +9712,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -7880,7 +9780,7 @@
                         "group_item_backup": false,
                         "id": 12,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -7939,10 +9839,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Apostle's Creed Web 1": [],
                 "libobs.hide_scene_item.Audio": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Apostle's Creed Web 1": [],
                 "libobs.show_scene_item.Audio": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -7959,6 +9859,35 @@
                 "custom_size": false,
                 "id_counter": 19,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -8059,7 +9988,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -8080,6 +10009,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -8119,7 +10077,7 @@
                         "group_item_backup": false,
                         "id": 16,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -8180,10 +10138,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Apostle's Creed Web 2": [],
                 "libobs.hide_scene_item.Audio": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Apostle's Creed Web 2": [],
                 "libobs.show_scene_item.Audio": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -8200,6 +10158,35 @@
                 "custom_size": false,
                 "id_counter": 10,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -8300,7 +10287,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -8321,6 +10308,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -8360,7 +10376,7 @@
                         "group_item_backup": false,
                         "id": 9,
                         "locked": true,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -8449,10 +10465,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Holy, Holy, Holy Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Holy, Holy, Holy Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -8469,6 +10485,35 @@
                 "custom_size": false,
                 "id_counter": 11,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -8569,7 +10614,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -8590,6 +10635,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -8629,7 +10703,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -8688,10 +10762,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Mystery of Faith 1 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Mystery of Faith 1 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -8708,6 +10782,35 @@
                 "custom_size": false,
                 "id_counter": 12,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -8808,7 +10911,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -8829,6 +10932,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -8868,7 +11000,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -8927,10 +11059,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Great Amen Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Great Amen Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -8947,6 +11079,35 @@
                 "custom_size": false,
                 "id_counter": 12,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -9047,7 +11208,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -9068,6 +11229,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -9107,7 +11297,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -9166,10 +11356,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Our Father Web 2": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Our Father Web 2": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -9186,6 +11376,35 @@
                 "custom_size": false,
                 "id_counter": 9,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -9286,7 +11505,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -9307,6 +11526,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -9346,7 +11594,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -9405,10 +11653,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Sign of Peace Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Sign of Peace Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -9425,6 +11673,35 @@
                 "custom_size": false,
                 "id_counter": 12,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -9525,7 +11802,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -9546,6 +11823,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -9585,7 +11891,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -9644,10 +11950,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Lamb of God Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Lamb of God Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -9664,6 +11970,35 @@
                 "custom_size": false,
                 "id_counter": 11,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -9764,7 +12099,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -9785,6 +12120,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -9824,7 +12188,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -10093,10 +12457,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Offertory 1 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Offertory 1 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -10113,6 +12477,35 @@
                 "custom_size": false,
                 "id_counter": 4,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -10213,7 +12606,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -10234,6 +12627,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -10273,7 +12695,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -10367,10 +12789,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Reading 1.2 Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Reading 1.2 Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -10387,6 +12809,35 @@
                 "custom_size": false,
                 "id_counter": 4,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -10487,7 +12938,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -10508,6 +12959,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -10547,7 +13027,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -10641,10 +13121,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Kyrie, Eleison Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Kyrie, Eleison Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -10661,6 +13141,35 @@
                 "custom_size": false,
                 "id_counter": 4,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -10761,7 +13270,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -10782,6 +13291,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -10821,7 +13359,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -10915,10 +13453,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Audio": [],
                 "libobs.hide_scene_item.Lord, Have Mercy Web": [],
-                "libobs.hide_scene_item.Video": [],
+                "libobs.hide_scene_item.Video 1": [],
                 "libobs.show_scene_item.Audio": [],
                 "libobs.show_scene_item.Lord, Have Mercy Web": [],
-                "libobs.show_scene_item.Video": []
+                "libobs.show_scene_item.Video 1": []
             },
             "id": "scene",
             "mixers": 0,
@@ -10935,6 +13473,35 @@
                 "custom_size": false,
                 "id_counter": 4,
                 "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -11035,7 +13602,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": true,
-                        "id": 1,
+                        "id": 26,
                         "locked": false,
                         "name": "Logitech C930e Video",
                         "pos": {
@@ -11056,6 +13623,35 @@
                         "bounds": {
                             "x": 0.0,
                             "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 21,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -11095,7 +13691,7 @@
                         "group_item_backup": false,
                         "id": 2,
                         "locked": false,
-                        "name": "Video",
+                        "name": "Video 1",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -11177,6 +13773,345 @@
             },
             "sync": 0,
             "versioned_id": "browser_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ios-camera-source",
+            "mixers": 255,
+            "monitoring_type": 2,
+            "muted": true,
+            "name": "iOS Camera",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "setting_device_uuid": "00008101-00124D990A06001E"
+            },
+            "sync": 0,
+            "versioned_id": "ios-camera-source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_2"
+                    }
+                ],
+                "libobs.hide_scene_item.Audio": [],
+                "libobs.hide_scene_item.Video 2": [],
+                "libobs.show_scene_item.Audio": [],
+                "libobs.show_scene_item.Video 2": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Camera 2",
+            "prev_ver": 436273153,
+            "private_settings": {
+                "transition": "Fade"
+            },
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 3,
+                "items": [
+                    {
+                        "align": 0,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 22,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.0,
+                            "y": -0.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 15,
+                        "locked": false,
+                        "name": "Omni Microphone",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Logitech C930e Audio",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Audio",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {
+                            "collapsed": false
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 2,
+                        "locked": false,
+                        "name": "iOS Camera",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Logitech C930e Video",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": true,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Video Web",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Video 2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Logitech C930e Video",
+            "prev_ver": 436273153,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "last_resolution": "1920x1080",
+                "last_video_device_id": "Logitech Webcam C930e:\\\\?\\usb#22vid_046d&pid_0843&mi_00#226&1005a9b3&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "res_type": 1,
+                "resolution": "1920x1080",
+                "video_device_id": "Logitech Webcam C930e:\\\\?\\usb#22vid_046d&pid_0843&mi_00#226&1005a9b3&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+            },
+            "sync": 0,
+            "versioned_id": "dshow_input",
             "volume": 1.0
         }
     ],
