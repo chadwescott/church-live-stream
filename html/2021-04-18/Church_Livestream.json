@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Conclusion",
-    "current_scene": "Announcements 2",
+    "current_program_scene": "Title",
+    "current_scene": "Title",
     "current_transition": "Fade",
     "groups": [
         {
@@ -57,8 +57,8 @@
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": -0.0,
-                            "y": -0.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -406,7 +406,7 @@
         },
         "scripts-tool": []
     },
-    "name": "Church_Livestream_2021-04-11",
+    "name": "Church_Livestream_2021-04-18",
     "preview_locked": false,
     "quick_transitions": [
         {
@@ -513,9 +513,6 @@
             "name": "Gospel 3"
         },
         {
-            "name": "Gospel 4"
-        },
-        {
             "name": "Apostle's Creed 1"
         },
         {
@@ -604,8 +601,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/introduction/absolution.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/introduction/absolution.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -936,8 +933,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/mystery-of-faith-3.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/mystery-of-faith-3.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -1268,8 +1265,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/mystery-of-faith-2.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/mystery-of-faith-2.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -1589,338 +1586,6 @@
             "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Gospel 4 Web",
-            "prev_ver": 436273153,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "css": "",
-                "height": 1080,
-                "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-word/gospel-4.html",
-                "restart_when_active": true,
-                "width": 960
-            },
-            "sync": 0,
-            "versioned_id": "browser_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Audio": [],
-                "libobs.hide_scene_item.Gospel 4 Web": [],
-                "libobs.hide_scene_item.Video 1": [],
-                "libobs.show_scene_item.Audio": [],
-                "libobs.show_scene_item.Gospel 4 Web": [],
-                "libobs.show_scene_item.Video 1": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Gospel 4",
-            "prev_ver": 436273153,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 4,
-                "items": [
-                    {
-                        "align": 0,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 22,
-                        "locked": false,
-                        "name": "iOS Camera",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": -0.0,
-                            "y": -0.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 15,
-                        "locked": false,
-                        "name": "Omni Microphone",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 2,
-                        "locked": false,
-                        "name": "Logitech C930e Audio",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": true,
-                        "name": "Audio",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 26,
-                        "locked": false,
-                        "name": "Logitech C930e Video",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 21,
-                        "locked": false,
-                        "name": "iOS Camera",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": true,
-                        "id": 19,
-                        "locked": false,
-                        "name": "Video Web",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 2,
-                        "locked": true,
-                        "name": "Video 1",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
-                        "locked": false,
-                        "name": "Gospel 4 Web",
-                        "pos": {
-                            "x": 960.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "browser_source",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
             "name": "Gospel 3 Web",
             "prev_ver": 436273153,
             "private_settings": {},
@@ -1932,8 +1597,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-word/gospel-3.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-word/gospel-3.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -2264,8 +1929,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-word/reading-2.2.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-word/reading-2.2.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -2596,8 +2261,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-word/psalm-1.2.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-word/psalm-1.2.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -2631,8 +2296,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/video-only.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/video-only.html",
+                "restart_when_active": false,
                 "width": 1920
             },
             "sync": 0,
@@ -2666,8 +2331,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/prelude/announcements-02.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/prelude/announcements-02.html",
+                "restart_when_active": false,
                 "width": 1920
             },
             "sync": 0,
@@ -2701,8 +2366,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/prelude/announcements-01.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/prelude/announcements-01.html",
+                "restart_when_active": false,
                 "width": 1920
             },
             "sync": 0,
@@ -2736,8 +2401,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/eucharistic-prayer.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/eucharistic-prayer.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3068,8 +2733,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/invitation-to-communion.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/invitation-to-communion.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3103,8 +2768,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/lamb-of-god.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/lamb-of-god.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3138,8 +2803,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/sign-of-peace.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/sign-of-peace.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3173,8 +2838,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/our-father-2.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/our-father-2.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3208,8 +2873,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/our-father-1.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/our-father-1.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3243,8 +2908,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/great-amen.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/great-amen.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3278,8 +2943,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/mystery-of-faith-1.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/mystery-of-faith-1.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3313,8 +2978,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/holy-holy-holy.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/holy-holy-holy.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3348,8 +3013,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/offertory-2.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/offertory-2.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3383,8 +3048,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/nicene-creed-3.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/nicene-creed-3.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3418,8 +3083,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/nicene-creed-2.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/nicene-creed-2.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3453,8 +3118,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/nicene-creed-1.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/nicene-creed-1.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3488,8 +3153,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/apostles-creed-2.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/apostles-creed-2.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3523,8 +3188,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/apostles-creed-1.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/apostles-creed-1.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3558,8 +3223,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-word/gospel-2.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-word/gospel-2.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3593,8 +3258,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-word/gospel-1.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-word/gospel-1.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3628,8 +3293,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-word/gospel-acclamation-1.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-word/gospel-acclamation-1.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3663,8 +3328,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-word/psalm-1.1.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-word/psalm-1.1.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3698,8 +3363,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-word/reading-2.1.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-word/reading-2.1.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -3733,8 +3398,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-word/reading-1.1.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-word/reading-1.1.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -12264,8 +11929,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/introduction/confiteor.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/introduction/confiteor.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -12299,8 +11964,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/introduction/gloria-1.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/introduction/gloria-1.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -12334,8 +11999,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/introduction/gloria-2.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/introduction/gloria-2.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -12369,8 +12034,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/prelude/title.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/prelude/title.html",
+                "restart_when_active": false,
                 "width": 1920
             },
             "sync": 0,
@@ -12404,8 +12069,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/conclusion.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/conclusion.html",
+                "restart_when_active": false,
                 "width": 1920
             },
             "sync": 0,
@@ -12439,8 +12104,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/act-of-spiritual-communion.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/act-of-spiritual-communion.html",
+                "restart_when_active": false,
                 "width": 1920
             },
             "sync": 0,
@@ -12771,8 +12436,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-eucharist/offertory-1.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-eucharist/offertory-1.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -13103,8 +12768,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/liturgy-of-the-word/reading-1.2.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/liturgy-of-the-word/reading-1.2.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -13435,8 +13100,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/introduction/kyrie-eleision.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/introduction/kyrie-eleision.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
@@ -13767,8 +13432,8 @@
                 "css": "",
                 "height": 1080,
                 "is_local_file": true,
-                "local_file": "C:/git/church-live-stream/html/2021-04-11/introduction/lord-have-mercy.html",
-                "restart_when_active": true,
+                "local_file": "C:/git/church-live-stream/html/2021-04-18/introduction/lord-have-mercy.html",
+                "restart_when_active": false,
                 "width": 960
             },
             "sync": 0,
